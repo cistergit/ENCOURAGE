@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <!-- MacroCells -->
+    <ConfMacroCell macrocell_id="UPC" macrocell_desc="UPC TERRASA CAMPUS" region="ES"/>
+    <ConfMacroCell macrocell_id="DKD" macrocell_desc="DANISH DEMONTRATOR" region="DK"/>
+    <ConfMacroCell macrocell_id="NEST" macrocell_desc="NEST BUILDING" region="IT"/>
+    
+    <!-- Cells -->
+    <ConfCell macrocell_id="DKD" cell_id="DKDEM08" cell_latitud="56.9728620000" cell_longitud="9.9595240000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 16"/>
+    <ConfCell macrocell_id="DKD" cell_id="DKDEM03" cell_latitud="56.9727950000" cell_longitud="9.9959520000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ  6"/>
+    <ConfCell macrocell_id="UPC" cell_id="UPCTC03" cell_latitud="41.5639679000" cell_longitud="2.0225072000" cell_surface="65.00" cell_volumen="195.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="UPC Teacher's room"/>
+    <ConfCell macrocell_id="DKD" cell_id="DKDEM02" cell_latitud="56.9727360000" cell_longitud="9.9594580000" cell_surface="200.00" cell_volumen="600.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 4"/>
+    <ConfCell macrocell_id="DKD" cell_id="DKDEM07" cell_latitud="56.9730630000" cell_longitud="9.9595370000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 14"/>
+    <ConfCell macrocell_id="DKD" cell_id="DKDEM01" cell_latitud="56.9720000000" cell_longitud="9.9590000000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 2"/>
+    <ConfCell macrocell_id="DKD" cell_id="DKDEM04" cell_latitud="56.9728620000" cell_longitud="9.9595240000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 8"/>
+    <ConfCell macrocell_id="DKD" cell_id="DKDEM09" cell_latitud="57.0045120000" cell_longitud="9.7367230000" cell_surface="169.00" cell_volumen="405.60" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="Vestervej"/>
+    <ConfCell macrocell_id="DKD" cell_id="DKDEM06" cell_latitud="56.9729960000" cell_longitud="9.9595330000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 12"/>
+    <ConfCell macrocell_id="UPC" cell_id="UPCTC01" cell_latitud="41.5639000000" cell_longitud="2.0225000000" cell_surface="19.00" cell_volumen="59.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="UPC STUDENT'S ROOM"/>
+    <ConfCell macrocell_id="DKD" cell_id="DKDEM05" cell_latitud="56.9729290000" cell_longitud="9.9595280000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 10"/>
+    <ConfCell macrocell_id="UPC" cell_id="UPCTC02" cell_latitud="41.5639679000" cell_longitud="2.0225072000" cell_surface="225.70" cell_volumen="677.10" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="UPC building"/>
+    <ConfCell macrocell_id="NEST" cell_id="NESTB01" cell_latitud="43.7228386000" cell_longitud="10.4016888000" cell_surface="2000.00" cell_volumen="8000.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="NEST"/>
+     
+   <!-- Rooms -->
+    
+    <!-- Appliances -->
+    
+    <!-- Devices -->
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ080105" device_id="DKDJ080109" deviceType="3" manufacturer_id="\N" device_desc="Dishwasher Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_525373" deviceType="3" manufacturer_id="\N" device_desc="Voltage Phase 3"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_5" device_id="zwave01625CBE_328068" deviceType="3" manufacturer_id="\N" device_desc="WakeUp Interval"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_393248" deviceType="3" manufacturer_id="\N" device_desc="Basic"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_393253" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ070104" device_id="DKDJ070108" deviceType="3" manufacturer_id="\N" device_desc="Tumble dryer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ040108" device_id="DKDJ040103" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter consumption from grid Energy from grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ050104" device_id="DKDJ050108" deviceType="3" manufacturer_id="\N" device_desc="Tumble dryer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1027" device_id="zwave01625CBE_67305521" deviceType="3" manufacturer_id="\N" device_desc="Luminance Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_393269" deviceType="3" manufacturer_id="\N" device_desc="Meter Pulse Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ0701010" device_id="DKDJ070106" deviceType="3" manufacturer_id="\N" device_desc="El-panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ0301010" device_id="DKDJ030106" deviceType="3" manufacturer_id="\N" device_desc="El-panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_393219" deviceType="3" manufacturer_id="\N" device_desc="Event"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ090102" device_id="DKDJ090107" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production solar panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ090110" device_id="DKDJ090105" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter consumption from grid Energy from grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_770" device_id="zwave01625CBE_50462769" deviceType="3" manufacturer_id="\N" device_desc="Humidity Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_4" device_id="zwave01625CBE_262192" deviceType="3" manufacturer_id="\N" device_desc="Binary Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0104" device_id="NEST0109" deviceType="3" manufacturer_id="\N" device_desc="Inverter of the motor CTA laboratories"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_513" device_id="zwave01625CBE_33620017" deviceType="3" manufacturer_id="\N" device_desc="Temperature Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0102" device_id="NEST0102" deviceType="3" manufacturer_id="\N" device_desc="General AC Temperature set point"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0115" device_id="NEST0122" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 11"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ040106" device_id="DKDJ040110" deviceType="3" manufacturer_id="\N" device_desc="Refrigerator Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ030105" device_id="DKDJ030109" deviceType="3" manufacturer_id="\N" device_desc="Dishwasher Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ040105" device_id="DKDJ040109" deviceType="3" manufacturer_id="\N" device_desc="Dishwasher Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_524640" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0120" device_id="NEST0127" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 16"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ040101" device_id="DKDJ040101" deviceType="3" manufacturer_id="\N" device_desc="Solar panel Inverter status"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1" device_id="zwave01625CBE_65568" deviceType="3" manufacturer_id="\N" device_desc="Basic"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0127" device_id="NEST0134" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 23"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ060105" device_id="DKDJ060109" deviceType="3" manufacturer_id="\N" device_desc="Dishwasher Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_393568" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ030101" device_id="DKDJ030101" deviceType="3" manufacturer_id="\N" device_desc="Solar panel Inverter status"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ070101" device_id="DKDJ070101" deviceType="3" manufacturer_id="\N" device_desc="Solar panel Inverter status"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0104" device_id="NEST0111" deviceType="3" manufacturer_id="\N" device_desc="Set Point - Inverter of the motor CTA laboratories"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ010106" device_id="DKDJ010110" deviceType="3" manufacturer_id="\N" device_desc="Refrigerator Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ030103" device_id="DKDJ030107" deviceType="3" manufacturer_id="\N" device_desc="Laundry machine Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_394045" deviceType="3" manufacturer_id="\N" device_desc="Voltage Phase 2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_5" device_id="zwave01625CBE_327808" deviceType="3" manufacturer_id="\N" device_desc="Battery Level"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0101" device_id="NEST0103" deviceType="3" manufacturer_id="\N" device_desc="Water for machineries - Intake capacity"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ050108" device_id="DKDJ050103" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter consumption from grid Energy from grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_771" device_id="zwave01625CBE_50528305" deviceType="3" manufacturer_id="\N" device_desc="Humidity Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ040101" device_id="DKDJ040105" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production solar panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ020104" device_id="DKDJ020108" deviceType="3" manufacturer_id="\N" device_desc="Tumble dryer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1" device_id="zwave01625CBE_65539" deviceType="3" manufacturer_id="\N" device_desc="Event"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1029" device_id="zwave01625CBE_67436593" deviceType="3" manufacturer_id="\N" device_desc="Luminance Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0108" device_id="NEST0115" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 4"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT009" device_id="DKDJ090115" deviceType="3" manufacturer_id="\N" device_desc="Humidity in bathroom 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_525152" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT009" device_id="DKDJ090117" deviceType="3" manufacturer_id="\N" device_desc="Humidity in hall"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_524336" deviceType="3" manufacturer_id="\N" device_desc="Binary Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_526141" deviceType="3" manufacturer_id="\N" device_desc="Ampere Phase 3"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT009" device_id="DKDJ090110" deviceType="3" manufacturer_id="\N" device_desc="Temperature in bathroom 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_4" device_id="zwave01625CBE_262147" deviceType="3" manufacturer_id="\N" device_desc="Event"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_459104" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_393789" deviceType="3" manufacturer_id="\N" device_desc="Voltage Phase 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_517" device_id="zwave01625CBE_33882161" deviceType="3" manufacturer_id="\N" device_desc="Temperature Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ070102" device_id="DKDJ070102" deviceType="3" manufacturer_id="\N" device_desc="Floor heating Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ060104" device_id="DKDJ060108" deviceType="3" manufacturer_id="\N" device_desc="Tumble dryer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ060108" device_id="DKDJ060103" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter consumption from grid Energy from grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0102" device_id="NEST0105" deviceType="3" manufacturer_id="\N" device_desc="AC Water - Intake capacity"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ010101" device_id="DKDJ010101" deviceType="3" manufacturer_id="\N" device_desc="Solar panel Inverter status"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ070106" device_id="DKDJ070110" deviceType="3" manufacturer_id="\N" device_desc="Refrigerator Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_524291" deviceType="3" manufacturer_id="\N" device_desc="Event"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_458789" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ040103" device_id="DKDJ040107" deviceType="3" manufacturer_id="\N" device_desc="Laundry machine Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ030107" device_id="DKDJ030111" deviceType="3" manufacturer_id="\N" device_desc="Freezer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ050107" device_id="DKDJ050111" deviceType="3" manufacturer_id="\N" device_desc="Freezer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_2" device_id="zwave01625CBE_131075" deviceType="3" manufacturer_id="\N" device_desc="Event"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_516" device_id="zwave01625CBE_33816625" deviceType="3" manufacturer_id="\N" device_desc="Temperature Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ080102" device_id="DKDJ080102" deviceType="3" manufacturer_id="\N" device_desc="Floor heating Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ050101" device_id="DKDJ050101" deviceType="3" manufacturer_id="\N" device_desc="Solar panel Inverter status"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ040107" device_id="DKDJ040111" deviceType="3" manufacturer_id="\N" device_desc="Freezer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_514" device_id="zwave01625CBE_33685553" deviceType="3" manufacturer_id="\N" device_desc="Temperature Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ0201010" device_id="DKDJ020106" deviceType="3" manufacturer_id="\N" device_desc="El-panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="UPC" appliance_id="AUPC020101" device_id="UPC02001" deviceType="3" manufacturer_id="\N" device_desc="PC room's ventilation consumption"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_394336" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ090102" device_id="DKDJ090102" deviceType="3" manufacturer_id="\N" device_desc="Solar panel Inverter status"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ020106" device_id="DKDJ020110" deviceType="3" manufacturer_id="\N" device_desc="Refrigerator Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0102" device_id="NEST0107" deviceType="3" manufacturer_id="\N" device_desc="Timer for AC"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ070107" device_id="DKDJ070111" deviceType="3" manufacturer_id="\N" device_desc="Freezer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT003" device_id="DKDJ030113" deviceType="3" manufacturer_id="\N" device_desc="Temperature 2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ060109" device_id="DKDJ060104" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production to grid Energy to grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="UPC" appliance_id="AUPC020301" device_id="UPC02005" deviceType="3" manufacturer_id="\N" device_desc="Lecturer's office's ventilation consumption"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ090101" device_id="DKDJ090101" deviceType="3" manufacturer_id="\N" device_desc="Heat pump Control"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_772" device_id="zwave01625CBE_50593841" deviceType="3" manufacturer_id="\N" device_desc="Humidity Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT009" device_id="DKDJ090103" deviceType="3" manufacturer_id="\N" device_desc="Outdoor temperature"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_519" device_id="zwave01625CBE_34013233" deviceType="3" manufacturer_id="\N" device_desc="Temperature Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ070109" device_id="DKDJ070104" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production to grid Energy to grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_460093" deviceType="3" manufacturer_id="\N" device_desc="Ampere Phase 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ050103" device_id="DKDJ050107" deviceType="3" manufacturer_id="\N" device_desc="Laundry machine Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_394557" deviceType="3" manufacturer_id="\N" device_desc="Ampere Phase 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_3" device_id="zwave01625CBE_196656" deviceType="3" manufacturer_id="\N" device_desc="Binary Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_394301" deviceType="3" manufacturer_id="\N" device_desc="Voltage Phase 3"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1028" device_id="zwave01625CBE_67371057" deviceType="3" manufacturer_id="\N" device_desc="Luminance Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ060102" device_id="DKDJ060102" deviceType="3" manufacturer_id="\N" device_desc="Floor heating Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0119" device_id="NEST0126" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 15"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ030109" device_id="DKDJ030104" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production to grid Energy to grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_458784" deviceType="3" manufacturer_id="\N" device_desc="Basic"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT001" device_id="DKDJ010113" deviceType="3" manufacturer_id="\N" device_desc="Temperature 2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ0101010" device_id="DKDJ010106" deviceType="3" manufacturer_id="\N" device_desc="El-panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ010104" device_id="DKDJ010108" deviceType="3" manufacturer_id="\N" device_desc="Tumble dryer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_2" device_id="zwave01625CBE_131120" deviceType="3" manufacturer_id="\N" device_desc="Binary Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0126" device_id="NEST0133" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 22"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT009" device_id="DKDJ090113" deviceType="3" manufacturer_id="\N" device_desc="Temperature in utility room"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT009" device_id="DKDJ090112" deviceType="3" manufacturer_id="\N" device_desc="Temperature in hall"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_5" device_id="zwave01625CBE_327683" deviceType="3" manufacturer_id="\N" device_desc="Event"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ010109" device_id="DKDJ010104" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production to grid Energy to grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="UPC" appliance_id="AUPC020201" device_id="UPC02003" deviceType="3" manufacturer_id="\N" device_desc="Lecture room's ventilation consumption"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0112" device_id="NEST0119" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 8"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0105" device_id="NEST0112" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_393824" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0110" device_id="NEST0117" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 6"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ0601010" device_id="DKDJ060106" deviceType="3" manufacturer_id="\N" device_desc="El-panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ020102" device_id="DKDJ020102" deviceType="3" manufacturer_id="\N" device_desc="Floor heating Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_525629" deviceType="3" manufacturer_id="\N" device_desc="Ampere Phase 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ080103" device_id="DKDJ080107" deviceType="3" manufacturer_id="\N" device_desc="Laundry machine Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ080109" device_id="DKDJ080104" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production to grid Energy to grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ060107" device_id="DKDJ060111" deviceType="3" manufacturer_id="\N" device_desc="Freezer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0121" device_id="NEST0128" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 17"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ030106" device_id="DKDJ030110" deviceType="3" manufacturer_id="\N" device_desc="Refrigerator Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_459581" deviceType="3" manufacturer_id="\N" device_desc="Voltage Phase 2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_2" device_id="zwave01625CBE_131200" deviceType="3" manufacturer_id="\N" device_desc="Battery Level"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_524349" deviceType="3" manufacturer_id="\N" device_desc="Total Primary Active Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ030102" device_id="DKDJ030102" deviceType="3" manufacturer_id="\N" device_desc="Floor heating Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_394813" deviceType="3" manufacturer_id="\N" device_desc="Ampere Phase 2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ050109" device_id="DKDJ050104" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production to grid Energy to grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0109" device_id="NEST0116" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 5"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ080106" device_id="DKDJ080110" deviceType="3" manufacturer_id="\N" device_desc="Refrigerator Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_393264" deviceType="3" manufacturer_id="\N" device_desc="Binary Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_3" device_id="zwave01625CBE_196736" deviceType="3" manufacturer_id="\N" device_desc="Battery Level"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ050102" device_id="DKDJ050102" deviceType="3" manufacturer_id="\N" device_desc="Floor heating Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0113" device_id="NEST0120" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 9"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ060101" device_id="DKDJ060105" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production solar panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_775" device_id="zwave01625CBE_50790449" deviceType="3" manufacturer_id="\N" device_desc="Humidity Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ0801010" device_id="DKDJ080106" deviceType="3" manufacturer_id="\N" device_desc="El-panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ030104" device_id="DKDJ030108" deviceType="3" manufacturer_id="\N" device_desc="Tumble dryer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ070103" device_id="DKDJ070107" deviceType="3" manufacturer_id="\N" device_desc="Laundry machine Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0117" device_id="NEST0124" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 13"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ050105" device_id="DKDJ050109" deviceType="3" manufacturer_id="\N" device_desc="Dishwasher Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ020103" device_id="DKDJ020107" deviceType="3" manufacturer_id="\N" device_desc="Laundry machine Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0101" device_id="NEST0104" deviceType="3" manufacturer_id="\N" device_desc="Water for machineries - Return circuit"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_460605" deviceType="3" manufacturer_id="\N" device_desc="Ampere Phase 3"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_394080" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ070105" device_id="DKDJ070109" deviceType="3" manufacturer_id="\N" device_desc="Dishwasher Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_460349" deviceType="3" manufacturer_id="\N" device_desc="Ampere Phase 2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ020109" device_id="DKDJ020104" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production to grid Energy to grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0102" device_id="NEST0106" deviceType="3" manufacturer_id="\N" device_desc="AC Water - Return circuit"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1" device_id="zwave01625CBE_65585" deviceType="3" manufacturer_id="\N" device_desc="Luminance Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0116" device_id="NEST0123" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 12"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ0401010" device_id="DKDJ040106" deviceType="3" manufacturer_id="\N" device_desc="El-panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_525408" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_395069" deviceType="3" manufacturer_id="\N" device_desc="Ampere Phase 3"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_515" device_id="zwave01625CBE_33751089" deviceType="3" manufacturer_id="\N" device_desc="Temperature Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ070101" device_id="DKDJ070105" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production solar panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ080108" device_id="DKDJ080103" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter consumption from grid Energy from grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ080104" device_id="DKDJ080108" deviceType="3" manufacturer_id="\N" device_desc="Tumble dryer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="AMBIENT010" device_id="NEST0135" deviceType="3" manufacturer_id="\N" device_desc="Presence of people 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0123" device_id="NEST0130" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 19"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ060106" device_id="DKDJ060110" deviceType="3" manufacturer_id="\N" device_desc="Refrigerator Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0107" device_id="NEST0114" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 3"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_773" device_id="zwave01625CBE_50659377" deviceType="3" manufacturer_id="\N" device_desc="Humidity Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT001" device_id="DKDJ010112" deviceType="3" manufacturer_id="\N" device_desc="Temperature 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ020101" device_id="DKDJ020101" deviceType="3" manufacturer_id="\N" device_desc="Solar panel Inverter status"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="AMBIENT010" device_id="NEST0101" deviceType="3" manufacturer_id="\N" device_desc="Thermocouple_Buongiovanni"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_524861" deviceType="3" manufacturer_id="\N" device_desc="Voltage Phase 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0124" device_id="NEST0131" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 20"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_458805" deviceType="3" manufacturer_id="\N" device_desc="Meter Pulse Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ050101" device_id="DKDJ050105" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production solar panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_3" device_id="zwave01625CBE_196611" deviceType="3" manufacturer_id="\N" device_desc="Event"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT009" device_id="DKDJ090118" deviceType="3" manufacturer_id="\N" device_desc="Humidity in utility room"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_5" device_id="zwave01625CBE_327712" deviceType="3" manufacturer_id="\N" device_desc="Basic"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ040102" device_id="DKDJ040102" deviceType="3" manufacturer_id="\N" device_desc="Floor heating Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_5" device_id="zwave01625CBE_327728" deviceType="3" manufacturer_id="\N" device_desc="Binary Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0103" device_id="NEST0110" deviceType="3" manufacturer_id="\N" device_desc="Set Point - Inverter of the motor CTA clean room"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ070108" device_id="DKDJ070103" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter consumption from grid Energy from grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="UPC" appliance_id="AUPC020102" device_id="UPC02002" deviceType="3" manufacturer_id="\N" device_desc="PC room's consumption"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT009" device_id="DKDJ090116" deviceType="3" manufacturer_id="\N" device_desc="Humidity in bathroom 2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_458813" deviceType="3" manufacturer_id="\N" device_desc="Total Primary Active Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0142" device_id="NEST0142" deviceType="3" manufacturer_id="\N" device_desc="TR2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ090111" device_id="DKDJ090106" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production to grid Energy to grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1" device_id="zwave01625CBE_65924" deviceType="3" manufacturer_id="\N" device_desc="WakeUp Interval"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_459325" deviceType="3" manufacturer_id="\N" device_desc="Voltage Phase 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1" device_id="zwave01625CBE_65664" deviceType="3" manufacturer_id="\N" device_desc="Battery Level"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ050106" device_id="DKDJ050110" deviceType="3" manufacturer_id="\N" device_desc="Refrigerator Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1025" device_id="zwave01625CBE_67174449" deviceType="3" manufacturer_id="\N" device_desc="Luminance Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ020108" device_id="DKDJ020103" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter consumption from grid Energy from grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_525117" deviceType="3" manufacturer_id="\N" device_desc="Voltage Phase 2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="AMBIENT010" device_id="NEST0136" deviceType="3" manufacturer_id="\N" device_desc="Presence of people 2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT009" device_id="DKDJ090109" deviceType="3" manufacturer_id="\N" device_desc="Temperature in kitchen"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1026" device_id="zwave01625CBE_67239985" deviceType="3" manufacturer_id="\N" device_desc="Luminance Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ060101" device_id="DKDJ060101" deviceType="3" manufacturer_id="\N" device_desc="Solar panel Inverter status"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_524605" deviceType="3" manufacturer_id="\N" device_desc="Instantaneous Primary Active Power"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_524896" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_459837" deviceType="3" manufacturer_id="\N" device_desc="Voltage Phase 3"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0118" device_id="NEST0125" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 14"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="UPC" appliance_id="AUPC020302" device_id="UPC02006" deviceType="3" manufacturer_id="\N" device_desc="Lecturer's office consumption"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_393277" deviceType="3" manufacturer_id="\N" device_desc="Total Primary Active Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ020105" device_id="DKDJ020109" deviceType="3" manufacturer_id="\N" device_desc="Dishwasher Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_458800" deviceType="3" manufacturer_id="\N" device_desc="Binary Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ010102" device_id="DKDJ010102" deviceType="3" manufacturer_id="\N" device_desc="Floor heating Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_524325" deviceType="3" manufacturer_id="\N" device_desc="On/Off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_524320" deviceType="3" manufacturer_id="\N" device_desc="Basic"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ090104" device_id="DKDJ090104" deviceType="3" manufacturer_id="\N" device_desc="Floor heating On or off"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_459069" deviceType="3" manufacturer_id="\N" device_desc="Instantaneous Primary Active Power"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_7" device_id="zwave01625CBE_458755" deviceType="3" manufacturer_id="\N" device_desc="Event"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ020107" device_id="DKDJ020111" deviceType="3" manufacturer_id="\N" device_desc="Freezer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_4" device_id="zwave01625CBE_262532" deviceType="3" manufacturer_id="\N" device_desc="WakeUp Interval"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ090101" device_id="DKDJ090108" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter consumption heat pump Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ060103" device_id="DKDJ060107" deviceType="3" manufacturer_id="\N" device_desc="Laundry machine Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0122" device_id="NEST0129" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 18"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_524341" deviceType="3" manufacturer_id="\N" device_desc="Meter Pulse Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0141" device_id="NEST0141" deviceType="3" manufacturer_id="\N" device_desc="TR1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ0501010" device_id="DKDJ050106" deviceType="3" manufacturer_id="\N" device_desc="El-panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT009" device_id="DKDJ090114" deviceType="3" manufacturer_id="\N" device_desc="Humidity in kitchen"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1031" device_id="zwave01625CBE_67567665" deviceType="3" manufacturer_id="\N" device_desc="Luminance Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ040109" device_id="DKDJ040104" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production to grid Energy to grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_769" device_id="zwave01625CBE_50397233" deviceType="3" manufacturer_id="\N" device_desc="Temperature Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ010105" device_id="DKDJ010109" deviceType="3" manufacturer_id="\N" device_desc="Dishwasher Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0106" device_id="NEST0113" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_8" device_id="zwave01625CBE_525885" deviceType="3" manufacturer_id="\N" device_desc="Ampere Phase 2"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_6" device_id="zwave01625CBE_393533" deviceType="3" manufacturer_id="\N" device_desc="Instantaneous Primary Active Power"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ010101" device_id="DKDJ010105" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production solar panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_1" device_id="zwave01625CBE_65584" deviceType="3" manufacturer_id="\N" device_desc="Binary Sensor"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ020101" device_id="DKDJ020105" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production solar panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ040104" device_id="DKDJ040108" deviceType="3" manufacturer_id="\N" device_desc="Tumble dryer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_2" device_id="zwave01625CBE_131460" deviceType="3" manufacturer_id="\N" device_desc="WakeUp Interval"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ010108" device_id="DKDJ010103" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter consumption from grid Energy from grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ030101" device_id="DKDJ030105" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production solar panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0125" device_id="NEST0132" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 21"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0103" device_id="NEST0108" deviceType="3" manufacturer_id="\N" device_desc="Inverter of the motor CTA clean room"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="zwave01625CBE_4" device_id="zwave01625CBE_262272" deviceType="3" manufacturer_id="\N" device_desc="Battery Level"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ010107" device_id="DKDJ010111" deviceType="3" manufacturer_id="\N" device_desc="Freezer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ080107" device_id="DKDJ080111" deviceType="3" manufacturer_id="\N" device_desc="Freezer Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ080101" device_id="DKDJ080105" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter production solar panel Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0111" device_id="NEST0118" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 7"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT003" device_id="DKDJ030112" deviceType="3" manufacturer_id="\N" device_desc="Temperature 1"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ030108" device_id="DKDJ030103" deviceType="3" manufacturer_id="\N" device_desc="Electrical meter consumption from grid Energy from grid"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ010103" device_id="DKDJ010107" deviceType="3" manufacturer_id="\N" device_desc="Laundry machine Energy"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="ADKDJ080101" device_id="DKDJ080101" deviceType="3" manufacturer_id="\N" device_desc="Solar panel Inverter status"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="NEST" appliance_id="NEST0114" device_id="NEST0121" deviceType="3" manufacturer_id="\N" device_desc="Heat controller Lab 10"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="UPC" appliance_id="AUPC020202" device_id="UPC02004" deviceType="3" manufacturer_id="\N" device_desc="Lecture room's consumption"/>
+    <ConfShadowDevice gateway_id="\N" middlewarePluginId="DKD" appliance_id="AMBIENT009" device_id="DKDJ090111" deviceType="3" manufacturer_id="\N" device_desc="Temperature in bathroom 2"/>
+
+    <!-- Gateways -->
+    
+    <!-- Manufacturers -->
+    
+</root>

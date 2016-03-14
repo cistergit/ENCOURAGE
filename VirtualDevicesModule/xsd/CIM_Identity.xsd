@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:m="http://www.encourage-project.eu/CIM_Identity#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.encourage-project.eu/CIM_Identity#"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="InstanceID" type="xs:string"/>
+<xs:element name="Description" nillable="true" type="xs:string"/>
+<xs:element name="ElementName" nillable="true" type="xs:string"/>
+<xs:element name="CIM_Identity" type="m:CIM_Identity_Type"/>
+<xs:complexType name="CIM_Identity_Type">
+<xs:sequence>
+<xs:element minOccurs="0" ref="m:Description"/>
+<xs:element minOccurs="0" ref="m:ElementName"/>
+<xs:element ref="m:InstanceID"/>
+<xs:any maxOccurs="unbounded" minOccurs="0" namespace="##other" processContents="lax"/>
+</xs:sequence>
+<xs:anyAttribute namespace="##any" processContents="lax"/>
+</xs:complexType>
+</xs:schema>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:m="http://www.encourage-project.eu/CIM_AssignedIdentity#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.encourage-project.eu/CIM_AssignedIdentity#"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="CIM_AssignedIdentity" type="m:CIM_AssignedIdentity_Type"/>
+<xs:element name="IdentityInfo" type="xs:string"/>
+<xs:element name="ManagedElement" type="xs:string"/>
+<xs:complexType name="CIM_AssignedIdentity_Type">
+<xs:sequence>
+<xs:element ref="m:IdentityInfo"/>
+<xs:element ref="m:ManagedElement"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://langdale.com.au/2005/Message#" xmlns:a="http://langdale.com.au/2005/Message#"
+xmlns:m="http://www.encourage-project.eu/EndDeviceEvents#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.encourage-project.eu/EndDeviceEvents#"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="EndDeviceEvents" type="m:EndDeviceEvents"/>
+<xs:complexType name="EndDeviceEvents">
+<xs:sequence>
+<xs:element name="EndDeviceEvent" type="m:EndDeviceEvent" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="EndDeviceEventType" type="m:EndDeviceEventType" minOccurs="0"
+maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="Asset" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Asset">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="EndDeviceEvent" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+EndDeviceEvent">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="createdDateTime" type="xs:dateTime"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ActivityRecord.createdDateTime"/>
+<xs:element name="issuerID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceEvent.issuerID"/>
+<xs:element name="issuerTrackingID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceEvent.issuerTrackingID"/>
+<xs:element name="reason" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ActivityRecord.reason"/>
+<xs:element name="severity" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ActivityRecord.severity"/>
+<xs:element name="userID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceEvent.userID"/>
+<xs:element name="Assets" type="m:Asset" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ActivityRecord.Assets"/>
+<xs:element name="EndDeviceEventDetails" type="m:EndDeviceEventDetail" minOccurs="0"
+maxOccurs="unbounded" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+EndDeviceEvent.EndDeviceEventDetails"/>
+<xs:element name="EndDeviceEventType" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+EndDeviceEvent.EndDeviceEventType">
+<xs:complexType sawsdl:modelReference="">
+<xs:attribute name="ref" type="xs:string"/>
+</xs:complexType>
+</xs:element>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+<xs:element name="status" type="m:Status" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ActivityRecord.status"/>
+<xs:element name="UsagePoint" type="m:UsagePoint" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceEvent.UsagePoint"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="EndDeviceEventDetail" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+EndDeviceEventDetail">
+<xs:sequence>
+<xs:element name="name" type="xs:string" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+EndDeviceEventDetail.name"/>
+<xs:element name="value" type="m:StringQuantity" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceEventDetail.value"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="EndDeviceEventType" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+EndDeviceEventType">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="domain" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceEventType.domain"/>
+<xs:element name="eventOrAction" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceEventType.eventOrAction"/>
+<xs:element name="subDomain" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceEventType.subDomain"/>
+<xs:element name="type" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceEventType.type"/>
+<xs:element name="Names" type="m:Name" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="Name" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Name">
+<xs:sequence>
+<xs:element name="name" type="xs:string" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+Name.name"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="Status" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Status">
+<xs:sequence>
+<xs:element name="dateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Status.dateTime"/>
+<xs:element name="reason" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Status.reason"/>
+<xs:element name="remark" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Status.remark"/>
+<xs:element name="value" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Status.value"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="UsagePoint" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+UsagePoint">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+</xs:sequence>
+</xs:complexType>
+<xs:simpleType name="StringQuantity" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+StringQuantity">
+<xs:restriction base="xs:string"/>
+</xs:simpleType>
+</xs:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:m="http://www.encourage-project.eu/ConfGateway#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.encourage-project.eu/ConfGateway#"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="ConfGateway">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string">
+<xs:attribute type="xs:string" name="gateway_desc" use="optional"/>
+<xs:attribute type="xs:string" name="gateway_id"/>
+<xs:attribute type="xs:string" name="gateway_macadr" use="optional"/>
+<xs:attribute type="xs:string" name="manufacturer_id" use="optional"/>
+<xs:attribute type="xs:string" name="middlewarePluginId" use="optional"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:schema>

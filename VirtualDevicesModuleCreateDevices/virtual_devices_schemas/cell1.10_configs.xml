@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VirtualCell macroCellId="1" cellId="10" cellLatitude="10" cellLongitude="10" cellSurface="" cellVolumen="" cellBuildingShadeCoefficient="" cellWallInsulationThickness="" cellDescription="Residence1">
+        <VirtualRoom>
+            <VirtualAppliance>
+                <ShadowDevice gatewayId="12" middlewarePluginId="1" roomId="" applianceId="" deviceId="2" deviceType="1" manufacturerId="" deviceDescription="sensor2">
+                </ShadowDevice>
+                <ShadowDevice gatewayId="13" middlewarePluginId="1" roomId="" applianceId="" deviceId="3" deviceType="1" manufacturerId="" deviceDescription="sensor3">
+                </ShadowDevice>
+                <ShadowDevice gatewayId="14" middlewarePluginId="1" roomId="" applianceId="" deviceId="4" deviceType="2" manufacturerId="" deviceDescription="sensor4">
+                </ShadowDevice>
+            </VirtualAppliance>
+        </VirtualRoom>
+    </VirtualCell>

@@ -1,0 +1,7 @@
+2016-03-14 14:16:23,581 [DEBUG] encourager.RabbitManager [Thread - main] <init> - RabbitManager Configurations
+2016-03-14 14:16:23,581 [DEBUG] encourager.RabbitManager [Thread - main] <init> - PrefetchCount --> 20
+2016-03-14 14:16:23,581 [DEBUG] encourager.RabbitManager [Thread - main] <init> - ConsumersAck --> true
+2016-03-14 14:16:23,581 [DEBUG] encourager.RabbitManager [Thread - main] <init> - PublishersAck --> false
+2016-03-14 14:16:23,581 [DEBUG] encourager.RabbitManager [Thread - main] <init> - MessageDeliveryMode --> 1
+2016-03-14 14:16:23,581 [DEBUG] encourager.RabbitManager [Thread - main] <init> - ReplyQueue --> VDReply_Queue
+2016-03-14 14:16:25,091 [INFO] vddatabasehandler.VDDatabaseHandler [Thread - main] main - Consuming! Let's start some database handlers...

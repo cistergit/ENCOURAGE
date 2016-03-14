@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:m="http://www.encourage-project.eu/ConfRoom#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.encourage-project.eu/ConfRoom#"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="ConfRoom">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string">
+<xs:attribute type="xs:string" name="cell_id" use="optional"/>
+<xs:attribute type="xs:string" name="room_desc" use="optional"/>
+<xs:attribute type="xs:string" name="room_id"/>
+<xs:attribute type="xs:string" name="room_max_ocup" use="optional"/>
+<xs:attribute type="xs:string" name="room_surface" use="optional"/>
+<xs:attribute type="xs:string" name="room_volume" use="optional"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:schema>

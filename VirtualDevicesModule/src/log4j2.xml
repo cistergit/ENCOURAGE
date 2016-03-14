@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration strict="true" name="VDModuleLogging" >
+  <properties>
+    <property name="filename">logs/VirtualDevicesModule.log</property>
+  </properties>
+ 
+  <appenders>
+    <!--<FastRollingFile name="FastRollingFile" fileName="${filename}" filePattern="logs/$${date:yyyy-MM}/app-%d{yyyy-MM-dd-HH}-%i.log.gz">
+      <PatternLayout>
+        <pattern>%d [%p] %c [Thread - %t] %M - %m%n</pattern>
+      </PatternLayout>
+      <Policies>
+        <TimeBasedTriggeringPolicy interval="6" modulate="true"/>
+        <SizeBasedTriggeringPolicy size="250 MB"/>
+      </Policies>
+    </FastRollingFile>-->
+    <File name="File" fileName="${filename}">
+      <PatternLayout>
+        <pattern>%d [%p] %c [Thread - %t] %M - %m%n</pattern>
+      </PatternLayout>
+    </File>
+  </appenders>
+ 
+  <loggers>
+    <root level="warning">
+      <appender-ref ref="File"/>
+    </root>
+  </loggers>
+ 
+</configuration>

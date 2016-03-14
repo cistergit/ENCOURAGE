@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <!-- MacroCells -->
+    <ConfMacroCell macrocell_id="DKD" macrocell_desc="DANISH DEMONTRATOR" region="DK" /> 
+    <ConfMacroCell macrocell_id="NEST" macrocell_desc="NEST BUILDING" region="IT" /> 
+    <ConfMacroCell macrocell_id="UPC" macrocell_desc="UPC TERRASA CAMPUS" region="ES" />
+
+    <!-- Cells -->
+    <ConfCell cell_id="UPCTC01" macrocell_id="UPC" cell_latitud="41.5639000000" cell_longitud="2.0225000000" cell_surface="19.00" cell_volumen="59.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="UPC STUDENT'S ROOM" /> 
+    <ConfCell cell_id="DKDEM01" macrocell_id="DKD" cell_latitud="56.9720000000" cell_longitud="9.9590000000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 2" /> 
+    <ConfCell cell_id="DKDEM02" macrocell_id="DKD" cell_latitud="56.9727360000" cell_longitud="9.9594580000" cell_surface="200.00" cell_volumen="600.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 4" /> 
+    <ConfCell cell_id="DKDEM03" macrocell_id="DKD" cell_latitud="56.9727950000" cell_longitud="9.9959520000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 6" /> 
+    <ConfCell cell_id="DKDEM04" macrocell_id="DKD" cell_latitud="56.9728620000" cell_longitud="9.9595240000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 8" /> 
+    <ConfCell cell_id="DKDEM05" macrocell_id="DKD" cell_latitud="56.9729290000" cell_longitud="9.9595280000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 10" /> 
+    <ConfCell cell_id="DKDEM06" macrocell_id="DKD" cell_latitud="56.9729960000" cell_longitud="9.9595330000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 12" /> 
+    <ConfCell cell_id="DKDEM07" macrocell_id="DKD" cell_latitud="56.9730630000" cell_longitud="9.9595370000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 14" /> 
+    <ConfCell cell_id="DKDEM08" macrocell_id="DKD" cell_latitud="56.9728620000" cell_longitud="9.9595240000" cell_surface="96.00" cell_volumen="228.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="JADEVEJ 16" /> 
+    <ConfCell cell_id="DKDEM09" macrocell_id="DKD" cell_latitud="57.0045120000" cell_longitud="9.7367230000" cell_surface="169.00" cell_volumen="405.60" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="Vestervej" /> 
+    <ConfCell cell_id="NESTB01" macrocell_id="NEST" cell_latitud="43.7228386000" cell_longitud="10.4016888000" cell_surface="2000.00" cell_volumen="8000.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="NEST" /> 
+    <ConfCell cell_id="UPCTC02" macrocell_id="UPC" cell_latitud="41.5639679000" cell_longitud="2.0225072000" cell_surface="225.70" cell_volumen="677.10" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="UPC building" /> 
+    <ConfCell cell_id="UPCTC03" macrocell_id="UPC" cell_latitud="41.5639679000" cell_longitud="2.0225072000" cell_surface="65.00" cell_volumen="195.00" cell_building_shade_coefficient="0" cell_wall_insulation_thickness="0" cell_desc="UPC Teacher's room" />
+
+    <!-- Rooms -->
+    <ConfRoom room_id="UPCTC0101" cell_id="UPCTC01" room_surface="19.00" room_volume="59.00" room_max_ocup="1" room_desc="Student's appartment" /> 
+    <ConfRoom room_id="DKDEM0101" cell_id="DKDEM01" room_surface="96.00" room_volume="228.00" room_max_ocup="1" room_desc="1 adult &gt; 90 years retired" /> 
+    <ConfRoom room_id="DKDEM0201" cell_id="DKDEM02" room_surface="96.00" room_volume="228.00" room_max_ocup="2" room_desc="2 adult &gt; 70 years retired" /> 
+    <ConfRoom room_id="DKDEM0301" cell_id="DKDEM03" room_surface="96.00" room_volume="228.00" room_max_ocup="1" room_desc="1 adult &gt; 60 years retired" /> 
+    <ConfRoom room_id="DKDEM0401" cell_id="DKDEM04" room_surface="96.00" room_volume="228.00" room_max_ocup="1" room_desc="1 adult &gt; 70 years retired" /> 
+    <ConfRoom room_id="DKDEM0501" cell_id="DKDEM05" room_surface="96.00" room_volume="228.00" room_max_ocup="2" room_desc="1 adult &gt; 30 teacher 1 child &lt; 10" /> 
+    <ConfRoom room_id="DKDEM0601" cell_id="DKDEM06" room_surface="96.00" room_volume="228.00" room_max_ocup="1" room_desc="1 adult &gt; 60 years retired" /> 
+    <ConfRoom room_id="DKDEM0701" cell_id="DKDEM07" room_surface="96.00" room_volume="228.00" room_max_ocup="2" room_desc="2 adult &gt; 70 years retired" /> 
+    <ConfRoom room_id="DKDEM0801" cell_id="DKDEM08" room_surface="96.00" room_volume="228.00" room_max_ocup="4" room_desc="2 adult &gt; 30 doctor and sales man 2 children &lt; 10" /> 
+    <ConfRoom room_id="DKDEM0901" cell_id="DKDEM09" room_surface="169.00" room_volume="405.00" room_max_ocup="5" room_desc="2 adult 3 children" /> 
+    <ConfRoom room_id="UPCTC0201" cell_id="UPCTC02" room_surface="83.00" room_volume="249.00" room_max_ocup="62" room_desc="PC room" /> 
+    <ConfRoom room_id="UPCTC0202" cell_id="UPCTC02" room_surface="79.70" room_volume="239.10" room_max_ocup="60" room_desc="Lecture room" /> 
+    <ConfRoom room_id="UPCTC0203" cell_id="UPCTC02" room_surface="63.00" room_volume="189.00" room_max_ocup="3" room_desc="Lecturer's office" /> 
+    <ConfRoom room_id="UPCTC0301" cell_id="UPCTC03" room_surface="65.00" room_volume="195.00" room_max_ocup="1" room_desc="Teacher's appartment" /> 
+    <ConfRoom room_id="NESTB0101" cell_id="NESTB01" room_surface="2000.00" room_volume="6000.00" room_max_ocup="200" room_desc="" />
+
+    <!-- Manufacturers -->
+    <ConfManufacturer manufacturer_id="" manufacturer_make="" manufacturer_model="" manufacturer_firmware="" manufacturer_desc="" />
+
+    <!-- Gateways -->
+
+
+    <!-- Appliances -->
+    <ConfAppliance appliance_id="ADKDJ010101" appliance_power="4" subcategory_id="F1" appliance_desc="Solar panel Inverter" appliance_investment="0" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ0101010" appliance_power="1" subcategory_id="TOT" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ010102" appliance_power="1" subcategory_id="HEAT" appliance_desc="Floor heating" appliance_investment="0" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ010103" appliance_power="0.4" subcategory_id="WASH" appliance_desc="Laundry machine" appliance_investment="0" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ010104" appliance_power="0.27" subcategory_id="DRY" appliance_desc="Tumble dryer" appliance_investment="0" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ010105" appliance_power="0.98" subcategory_id="DISH" appliance_desc="Dishwasher" appliance_investment="0" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ010106" appliance_power="0.15" subcategory_id="FRIDG" appliance_desc="Refrigerator" appliance_investment="0" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ010107" appliance_power="0.15" subcategory_id="FREEZ" appliance_desc="Freezer" appliance_investment="0" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ010108" appliance_power="4" subcategory_id="FG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ010109" appliance_power="4" subcategory_id="TG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ020101" appliance_power="4" subcategory_id="F1" appliance_desc="Solar panel Inverter" appliance_investment="0" room_id="DKDEM0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ0201010" appliance_power="1" subcategory_id="TOT" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ020102" appliance_power="1" subcategory_id="HEAT" appliance_desc="Floor heating" appliance_investment="0" room_id="DKDEM0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ020103" appliance_power="0.4" subcategory_id="WASH" appliance_desc="Laundry machine" appliance_investment="0" room_id="DKDEM0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ020104" appliance_power="0.27" subcategory_id="DRY" appliance_desc="Tumble dryer" appliance_investment="0" room_id="DKDEM0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ020105" appliance_power="0.98" subcategory_id="DISH" appliance_desc="Dishwasher" appliance_investment="0" room_id="DKDEM0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ020106" appliance_power="0.15" subcategory_id="FRIDG" appliance_desc="Refrigerator" appliance_investment="0" room_id="DKDEM0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ020107" appliance_power="0.15" subcategory_id="FREEZ" appliance_desc="Freezer" appliance_investment="0" room_id="DKDEM0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ020108" appliance_power="4" subcategory_id="FG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ020109" appliance_power="4" subcategory_id="TG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ030101" appliance_power="4" subcategory_id="F1" appliance_desc="Solar panel Inverter" appliance_investment="0" room_id="DKDEM0301" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ0301010" appliance_power="1" subcategory_id="TOT" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0301" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ030102" appliance_power="1" subcategory_id="HEAT" appliance_desc="Floor heating" appliance_investment="0" room_id="DKDEM0301" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ030103" appliance_power="0.4" subcategory_id="WASH" appliance_desc="Laundry machine" appliance_investment="0" room_id="DKDEM0301" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ030104" appliance_power="0.27" subcategory_id="DRY" appliance_desc="Tumble dryer" appliance_investment="0" room_id="DKDEM0301" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ030105" appliance_power="0.98" subcategory_id="DISH" appliance_desc="Dishwasher" appliance_investment="0" room_id="DKDEM0301" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ030106" appliance_power="0.15" subcategory_id="FRIDG" appliance_desc="Refrigerator" appliance_investment="0" room_id="DKDEM0301" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ030107" appliance_power="0.15" subcategory_id="FREEZ" appliance_desc="Freezer" appliance_investment="0" room_id="DKDEM0301" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ030108" appliance_power="4" subcategory_id="FG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0301" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ030109" appliance_power="4" subcategory_id="TG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0301" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ040101" appliance_power="4" subcategory_id="F1" appliance_desc="Solar panel Inverter" appliance_investment="0" room_id="DKDEM0401" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ0401010" appliance_power="1" subcategory_id="TOT" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0401" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ040102" appliance_power="1" subcategory_id="HEAT" appliance_desc="Floor heating" appliance_investment="0" room_id="DKDEM0401" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ040103" appliance_power="0.4" subcategory_id="WASH" appliance_desc="Laundry machine" appliance_investment="0" room_id="DKDEM0401" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ040104" appliance_power="0.27" subcategory_id="DRY" appliance_desc="Tumble dryer" appliance_investment="0" room_id="DKDEM0401" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ040105" appliance_power="0.98" subcategory_id="DISH" appliance_desc="Dishwasher" appliance_investment="0" room_id="DKDEM0401" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ040106" appliance_power="0.15" subcategory_id="FRIDG" appliance_desc="Refrigerator" appliance_investment="0" room_id="DKDEM0401" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ040107" appliance_power="0.15" subcategory_id="FREEZ" appliance_desc="Freezer" appliance_investment="0" room_id="DKDEM0401" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ040108" appliance_power="4" subcategory_id="FG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0401" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ040109" appliance_power="4" subcategory_id="TG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0401" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ050101" appliance_power="4" subcategory_id="F1" appliance_desc="Solar panel Inverter" appliance_investment="0" room_id="DKDEM0501" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ0501010" appliance_power="1" subcategory_id="TOT" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0501" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ050102" appliance_power="1" subcategory_id="HEAT" appliance_desc="Floor heating" appliance_investment="0" room_id="DKDEM0501" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ050103" appliance_power="0.4" subcategory_id="WASH" appliance_desc="Laundry machine" appliance_investment="0" room_id="DKDEM0501" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ050104" appliance_power="0.27" subcategory_id="DRY" appliance_desc="Tumble dryer" appliance_investment="0" room_id="DKDEM0501" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ050105" appliance_power="0.98" subcategory_id="DISH" appliance_desc="Dishwasher" appliance_investment="0" room_id="DKDEM0501" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ050106" appliance_power="0.15" subcategory_id="FRIDG" appliance_desc="Refrigerator" appliance_investment="0" room_id="DKDEM0501" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ050107" appliance_power="0.15" subcategory_id="FREEZ" appliance_desc="Freezer" appliance_investment="0" room_id="DKDEM0501" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ050108" appliance_power="4" subcategory_id="FG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0501" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ050109" appliance_power="4" subcategory_id="TG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0501" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ060101" appliance_power="4" subcategory_id="F1" appliance_desc="Solar panel Inverter" appliance_investment="0" room_id="DKDEM0601" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ0601010" appliance_power="1" subcategory_id="TOT" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0601" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ060102" appliance_power="1" subcategory_id="HEAT" appliance_desc="Floor heating" appliance_investment="0" room_id="DKDEM0601" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ060103" appliance_power="0.4" subcategory_id="WASH" appliance_desc="Laundry machine" appliance_investment="0" room_id="DKDEM0601" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ060104" appliance_power="0.27" subcategory_id="DRY" appliance_desc="Tumble dryer" appliance_investment="0" room_id="DKDEM0601" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ060105" appliance_power="0.98" subcategory_id="DISH" appliance_desc="Dishwasher" appliance_investment="0" room_id="DKDEM0601" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ060106" appliance_power="0.15" subcategory_id="FRIDG" appliance_desc="Refrigerator" appliance_investment="0" room_id="DKDEM0601" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ060107" appliance_power="0.15" subcategory_id="FREEZ" appliance_desc="Freezer" appliance_investment="0" room_id="DKDEM0601" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ060108" appliance_power="4" subcategory_id="FG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0601" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ060109" appliance_power="4" subcategory_id="TG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0601" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ070101" appliance_power="4" subcategory_id="F1" appliance_desc="Solar panel Inverter" appliance_investment="0" room_id="DKDEM0701" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ0701010" appliance_power="1" subcategory_id="TOT" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0701" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ070102" appliance_power="1" subcategory_id="HEAT" appliance_desc="Floor heating" appliance_investment="0" room_id="DKDEM0701" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ070103" appliance_power="0.4" subcategory_id="WASH" appliance_desc="Laundry machine" appliance_investment="0" room_id="DKDEM0701" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ070104" appliance_power="0.27" subcategory_id="DRY" appliance_desc="Tumble dryer" appliance_investment="0" room_id="DKDEM0701" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ070105" appliance_power="0.98" subcategory_id="DISH" appliance_desc="Dishwasher" appliance_investment="0" room_id="DKDEM0701" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ070106" appliance_power="0.15" subcategory_id="FRIDG" appliance_desc="Refrigerator" appliance_investment="0" room_id="DKDEM0701" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ070107" appliance_power="0.15" subcategory_id="FREEZ" appliance_desc="Freezer" appliance_investment="0" room_id="DKDEM0701" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ070108" appliance_power="4" subcategory_id="FG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0701" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ070109" appliance_power="4" subcategory_id="TG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0701" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ080101" appliance_power="4" subcategory_id="F1" appliance_desc="Solar panel Inverter" appliance_investment="0" room_id="DKDEM0801" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ0801010" appliance_power="1" subcategory_id="TOT" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0801" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ080102" appliance_power="1" subcategory_id="HEAT" appliance_desc="Floor heating" appliance_investment="0" room_id="DKDEM0801" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ080103" appliance_power="0.4" subcategory_id="WASH" appliance_desc="Laundry machine" appliance_investment="0" room_id="DKDEM0801" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ080104" appliance_power="0.27" subcategory_id="DRY" appliance_desc="Tumble dryer" appliance_investment="0" room_id="DKDEM0801" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ080105" appliance_power="0.98" subcategory_id="DISH" appliance_desc="Dishwasher" appliance_investment="0" room_id="DKDEM0801" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ080106" appliance_power="0.15" subcategory_id="FRIDG" appliance_desc="Refrigerator" appliance_investment="0" room_id="DKDEM0801" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ080107" appliance_power="0.15" subcategory_id="FREEZ" appliance_desc="Freezer" appliance_investment="0" room_id="DKDEM0801" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ080108" appliance_power="4" subcategory_id="FG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0801" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ080109" appliance_power="4" subcategory_id="TG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0801" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ090101" appliance_power="1" subcategory_id="HPUMP" appliance_desc="Heat pump" appliance_investment="0" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ090102" appliance_power="6" subcategory_id="F1" appliance_desc="Solar panel Inverter" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ090104" appliance_power="1" subcategory_id="HEAT" appliance_desc="Floor heating" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ090105" appliance_power="0.4" subcategory_id="WASH" appliance_desc="Laundry machine" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ090106" appliance_power="0.27" subcategory_id="DRY" appliance_desc="Tumble dryer" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ090107" appliance_power="0.98" subcategory_id="DISH" appliance_desc="Dishwasher" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ090108" appliance_power="0.15" subcategory_id="FRIDG" appliance_desc="Refrigerator" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ090109" appliance_power="0.15" subcategory_id="FREEZ" appliance_desc="Freezer" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ090110" appliance_power="4" subcategory_id="FG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="ADKDJ090111" appliance_power="6" subcategory_id="TG" appliance_desc="Total" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT001" appliance_power="0" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="DKDEM0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT002" appliance_power="0" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="DKDEM0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT003" appliance_power="0" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="DKDEM0301" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT004" appliance_power="0" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="DKDEM0401" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT005" appliance_power="0" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="DKDEM0501" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT006" appliance_power="0" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="DKDEM0601" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT007" appliance_power="0" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="DKDEM0701" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT008" appliance_power="0" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="DKDEM0801" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT009" appliance_power="0" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT010" appliance_power="0" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT012" appliance_power="-1" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="UPCTC0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT013" appliance_power="-1" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="UPCTC0202" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AMBIENT014" appliance_power="-1" subcategory_id="AMB" appliance_desc="Ambient" appliance_investment="-1" room_id="UPCTC0203" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AUPC020101" appliance_power="1" subcategory_id="VENT" appliance_desc="PC room's ventilation system" appliance_investment="0" room_id="UPCTC0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AUPC020102" appliance_power="4" subcategory_id="FG" appliance_desc="PC room's consumption" appliance_investment="0" room_id="UPCTC0201" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AUPC020201" appliance_power="1" subcategory_id="VENT" appliance_desc="Lecture room's ventilation system" appliance_investment="0" room_id="UPCTC0202" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AUPC020202" appliance_power="4" subcategory_id="FG" appliance_desc="Lecture room's consumption" appliance_investment="0" room_id="UPCTC0202" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AUPC020301" appliance_power="1" subcategory_id="VENT" appliance_desc="Lecturer's office's ventilation system" appliance_investment="0" room_id="UPCTC0203" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="AUPC020302" appliance_power="4" subcategory_id="FG" appliance_desc="Lecturer's office consumption" appliance_investment="0" room_id="UPCTC0203" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0101" appliance_power="1" subcategory_id="HEAT" appliance_desc="Water for machineries" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0102" appliance_power="1" subcategory_id="HEAT" appliance_desc="AC Water" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0103" appliance_power="1" subcategory_id="GEN" appliance_desc="Inverter of the motor CTA clean room" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0104" appliance_power="1" subcategory_id="GEN" appliance_desc="Inverter of the motor CTA laboratories" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0105" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 1" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0106" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 2" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0107" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 3" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0108" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 4" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0109" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 5" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0110" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 6" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0111" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 7" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0112" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 8" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0113" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 9" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0114" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 10" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0115" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 11" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0116" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 12" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0117" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 13" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0118" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 14" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0119" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 15" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0120" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 16" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0121" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 17" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0122" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 18" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0123" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 19" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0124" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 20" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0125" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 21" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0126" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 22" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0127" appliance_power="1" subcategory_id="HEAT" appliance_desc="Heating Lab 23" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0128" appliance_power="1" subcategory_id="FG" appliance_desc="Total" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0141" appliance_power="1" subcategory_id="HEAT" appliance_desc="TR1" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="NEST0142" appliance_power="1" subcategory_id="HEAT" appliance_desc="TR2" appliance_investment="0" room_id="NESTB0101" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_1026" appliance_power="1" subcategory_id="LIGHT" appliance_desc="Luminance Sensor" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_1" appliance_power="1" subcategory_id="AMB" appliance_desc="Gateway" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_1025" appliance_power="1" subcategory_id="LIGHT" appliance_desc="Luminance Sensor 5" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_1027" appliance_power="1" subcategory_id="LIGHT" appliance_desc="Luminance Sensor 2" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_1028" appliance_power="1" subcategory_id="LIGHT" appliance_desc="Luminance Sensor 3" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_1029" appliance_power="1" subcategory_id="LIGHT" appliance_desc="Luminance Sensor 4" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_1031" appliance_power="1" subcategory_id="LIGHT" appliance_desc="Luminance Sensor 6" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_2" appliance_power="1" subcategory_id="AMB" appliance_desc="Movement Sensor" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_3" appliance_power="1" subcategory_id="AMB" appliance_desc="Movement Sensor 2" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_4" appliance_power="1" subcategory_id="AMB" appliance_desc="Movement Sensor 3" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_5" appliance_power="1" subcategory_id="AMB" appliance_desc="Movement Sensor 4" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_513" appliance_power="1" subcategory_id="HEAT" appliance_desc="Temperature Sensor 5" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_514" appliance_power="1" subcategory_id="HEAT" appliance_desc="Temperature Sensor" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_516" appliance_power="1" subcategory_id="HEAT" appliance_desc="Temperature Sensor 3" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_517" appliance_power="1" subcategory_id="HEAT" appliance_desc="Temperature Sensor 4" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_519" appliance_power="1" subcategory_id="HEAT" appliance_desc="Temperature Sensor 6" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_6" appliance_power="1" subcategory_id="HPUMP" appliance_desc="Heat_Pump_Meter" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_7" appliance_power="1" subcategory_id="F1" appliance_desc="Inverter_Meter" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_769" appliance_power="1" subcategory_id="AMB" appliance_desc="Humidity Sensor 5" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_770" appliance_power="1" subcategory_id="AMB" appliance_desc="Humidity Sensor" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_771" appliance_power="1" subcategory_id="AMB" appliance_desc="Humidity Sensor 2" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_772" appliance_power="1" subcategory_id="AMB" appliance_desc="Humidity Sensor 3" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_773" appliance_power="1" subcategory_id="AMB" appliance_desc="Humidity Sensor 4" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_775" appliance_power="1" subcategory_id="AMB" appliance_desc="Humidity Sensor 6" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_8" appliance_power="1" subcategory_id="FG" appliance_desc="Adv. Energy Control 3" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_515" appliance_power="1" subcategory_id="HEAT" appliance_desc="Temperature Sensor 2" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_521" appliance_power="1" subcategory_id="HEAT" appliance_desc="Temperature Sensor 2" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_777" appliance_power="1" subcategory_id="AMB" appliance_desc="Humidity Sensor 2" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_1033" appliance_power="1" subcategory_id="LIGHT" appliance_desc="Luminance Sensor 2" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" /> 
+    <ConfAppliance appliance_id="zwave01625CBE_9" appliance_power="1" subcategory_id="AMB" appliance_desc="Movement Sensor 2" appliance_investment="0" room_id="DKDEM0901" appliance_activacion_date="19001010" appliance_leaving_date="90001231" />
+
+    <!-- Devices -->
+    <ConfShadowDevice device_id="DKDJ010101" device_desc="Solar panel Inverter status" appliance_id="ADKDJ010101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010102" device_desc="Floor heating Energy" appliance_id="ADKDJ010102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010103" device_desc="Electrical meter consumption from grid Energy from grid" appliance_id="ADKDJ010108" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010104" device_desc="Electrical meter production to grid Energy to grid" appliance_id="ADKDJ010109" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010105" device_desc="Electrical meter production solar panel Energy" appliance_id="ADKDJ010101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010106" device_desc="El-panel Energy" appliance_id="ADKDJ0101010" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010107" device_desc="Laundry machine Energy" appliance_id="ADKDJ010103" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010108" device_desc="Tumble dryer Energy" appliance_id="ADKDJ010104" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010109" device_desc="Dishwasher Energy" appliance_id="ADKDJ010105" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010110" device_desc="Refrigerator Energy" appliance_id="ADKDJ010106" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010111" device_desc="Freezer Energy" appliance_id="ADKDJ010107" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010112" device_desc="Temperature 1" appliance_id="AMBIENT001" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ010113" device_desc="Temperature 2" appliance_id="AMBIENT001" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ020101" device_desc="Solar panel Inverter status" appliance_id="ADKDJ020101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ020102" device_desc="Floor heating Energy" appliance_id="ADKDJ020102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ020103" device_desc="Electrical meter consumption from grid Energy from grid" appliance_id="ADKDJ020108" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ020104" device_desc="Electrical meter production to grid Energy to grid" appliance_id="ADKDJ020109" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ020105" device_desc="Electrical meter production solar panel Energy" appliance_id="ADKDJ020101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ020106" device_desc="El-panel Energy" appliance_id="ADKDJ0201010" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ020107" device_desc="Laundry machine Energy" appliance_id="ADKDJ020103" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ020108" device_desc="Tumble dryer Energy" appliance_id="ADKDJ020104" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ020109" device_desc="Dishwasher Energy" appliance_id="ADKDJ020105" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ020110" device_desc="Refrigerator Energy" appliance_id="ADKDJ020106" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ020111" device_desc="Freezer Energy" appliance_id="ADKDJ020107" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030101" device_desc="Solar panel Inverter status" appliance_id="ADKDJ030101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030102" device_desc="Floor heating Energy" appliance_id="ADKDJ030102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030103" device_desc="Electrical meter consumption from grid Energy from grid" appliance_id="ADKDJ030108" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030104" device_desc="Electrical meter production to grid Energy to grid" appliance_id="ADKDJ030109" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030105" device_desc="Electrical meter production solar panel Energy" appliance_id="ADKDJ030101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030106" device_desc="El-panel Energy" appliance_id="ADKDJ0301010" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030107" device_desc="Laundry machine Energy" appliance_id="ADKDJ030103" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030108" device_desc="Tumble dryer Energy" appliance_id="ADKDJ030104" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030109" device_desc="Dishwasher Energy" appliance_id="ADKDJ030105" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030110" device_desc="Refrigerator Energy" appliance_id="ADKDJ030106" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030111" device_desc="Freezer Energy" appliance_id="ADKDJ030107" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030112" device_desc="Temperature 1" appliance_id="AMBIENT003" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ030113" device_desc="Temperature 2" appliance_id="AMBIENT003" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ040101" device_desc="Solar panel Inverter status" appliance_id="ADKDJ040101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ040102" device_desc="Floor heating Energy" appliance_id="ADKDJ040102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ040103" device_desc="Electrical meter consumption from grid Energy from grid" appliance_id="ADKDJ040108" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ040104" device_desc="Electrical meter production to grid Energy to grid" appliance_id="ADKDJ040109" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ040105" device_desc="Electrical meter production solar panel Energy" appliance_id="ADKDJ040101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ040106" device_desc="El-panel Energy" appliance_id="ADKDJ0401010" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ040107" device_desc="Laundry machine Energy" appliance_id="ADKDJ040103" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ040108" device_desc="Tumble dryer Energy" appliance_id="ADKDJ040104" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ040109" device_desc="Dishwasher Energy" appliance_id="ADKDJ040105" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ040110" device_desc="Refrigerator Energy" appliance_id="ADKDJ040106" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ040111" device_desc="Freezer Energy" appliance_id="ADKDJ040107" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ050101" device_desc="Solar panel Inverter status" appliance_id="ADKDJ050101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ050102" device_desc="Floor heating Energy" appliance_id="ADKDJ050102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ050103" device_desc="Electrical meter consumption from grid Energy from grid" appliance_id="ADKDJ050108" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ050104" device_desc="Electrical meter production to grid Energy to grid" appliance_id="ADKDJ050109" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ050105" device_desc="Electrical meter production solar panel Energy" appliance_id="ADKDJ050101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ050106" device_desc="El-panel Energy" appliance_id="ADKDJ0501010" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ050107" device_desc="Laundry machine Energy" appliance_id="ADKDJ050103" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ050108" device_desc="Tumble dryer Energy" appliance_id="ADKDJ050104" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ050109" device_desc="Dishwasher Energy" appliance_id="ADKDJ050105" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ050110" device_desc="Refrigerator Energy" appliance_id="ADKDJ050106" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ050111" device_desc="Freezer Energy" appliance_id="ADKDJ050107" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ060101" device_desc="Solar panel Inverter status" appliance_id="ADKDJ060101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ060102" device_desc="Floor heating Energy" appliance_id="ADKDJ060102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ060103" device_desc="Electrical meter consumption from grid Energy from grid" appliance_id="ADKDJ060108" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ060104" device_desc="Electrical meter production to grid Energy to grid" appliance_id="ADKDJ060109" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ060105" device_desc="Electrical meter production solar panel Energy" appliance_id="ADKDJ060101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ060106" device_desc="El-panel Energy" appliance_id="ADKDJ0601010" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ060107" device_desc="Laundry machine Energy" appliance_id="ADKDJ060103" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ060108" device_desc="Tumble dryer Energy" appliance_id="ADKDJ060104" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ060109" device_desc="Dishwasher Energy" appliance_id="ADKDJ060105" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ060110" device_desc="Refrigerator Energy" appliance_id="ADKDJ060106" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ060111" device_desc="Freezer Energy" appliance_id="ADKDJ060107" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ070101" device_desc="Solar panel Inverter status" appliance_id="ADKDJ070101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ070102" device_desc="Floor heating Energy" appliance_id="ADKDJ070102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ070103" device_desc="Electrical meter consumption from grid Energy from grid" appliance_id="ADKDJ070108" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ070104" device_desc="Electrical meter production to grid Energy to grid" appliance_id="ADKDJ070109" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ070105" device_desc="Electrical meter production solar panel Energy" appliance_id="ADKDJ070101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ070106" device_desc="El-panel Energy" appliance_id="ADKDJ0701010" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ070107" device_desc="Laundry machine Energy" appliance_id="ADKDJ070103" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ070108" device_desc="Tumble dryer Energy" appliance_id="ADKDJ070104" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ070109" device_desc="Dishwasher Energy" appliance_id="ADKDJ070105" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ070110" device_desc="Refrigerator Energy" appliance_id="ADKDJ070106" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ070111" device_desc="Freezer Energy" appliance_id="ADKDJ070107" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ080101" device_desc="Solar panel Inverter status" appliance_id="ADKDJ080101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ080102" device_desc="Floor heating Energy" appliance_id="ADKDJ080102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ080103" device_desc="Electrical meter consumption from grid Energy from grid" appliance_id="ADKDJ080108" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ080104" device_desc="Electrical meter production to grid Energy to grid" appliance_id="ADKDJ080109" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ080105" device_desc="Electrical meter production solar panel Energy" appliance_id="ADKDJ080101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ080106" device_desc="El-panel Energy" appliance_id="ADKDJ0801010" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ080107" device_desc="Laundry machine Energy" appliance_id="ADKDJ080103" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ080108" device_desc="Tumble dryer Energy" appliance_id="ADKDJ080104" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ080109" device_desc="Dishwasher Energy" appliance_id="ADKDJ080105" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ080110" device_desc="Refrigerator Energy" appliance_id="ADKDJ080106" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ080111" device_desc="Freezer Energy" appliance_id="ADKDJ080107" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090101" device_desc="Heat pump Control" appliance_id="ADKDJ090101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090102" device_desc="Solar panel Inverter status" appliance_id="ADKDJ090102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090103" device_desc="Outdoor temperature" appliance_id="AMBIENT009" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090104" device_desc="Floor heating On or off" appliance_id="ADKDJ090104" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090105" device_desc="Electrical meter consumption from grid Energy from grid" appliance_id="ADKDJ090110" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090106" device_desc="Electrical meter production to grid Energy to grid" appliance_id="ADKDJ090111" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090107" device_desc="Electrical meter production solar panel Energy" appliance_id="ADKDJ090102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090108" device_desc="Electrical meter consumption heat pump Energy" appliance_id="ADKDJ090101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090109" device_desc="Temperature in kitchen" appliance_id="AMBIENT009" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090110" device_desc="Temperature in bathroom 1" appliance_id="AMBIENT009" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090111" device_desc="Temperature in bathroom 2" appliance_id="AMBIENT009" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090112" device_desc="Temperature in hall" appliance_id="AMBIENT009" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090113" device_desc="Temperature in utility room" appliance_id="AMBIENT009" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090114" device_desc="Humidity in kitchen" appliance_id="AMBIENT009" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090115" device_desc="Humidity in bathroom 1" appliance_id="AMBIENT009" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090116" device_desc="Humidity in bathroom 2" appliance_id="AMBIENT009" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090117" device_desc="Humidity in hall" appliance_id="AMBIENT009" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="DKDJ090118" device_desc="Humidity in utility room" appliance_id="AMBIENT009" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0101" device_desc="Thermocouple_Buongiovanni" appliance_id="AMBIENT010" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0102" device_desc="General AC Temperature set point" appliance_id="NEST0102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0103" device_desc="Water for machineries - Intake capacity" appliance_id="NEST0101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0104" device_desc="Water for machineries - Return circuit" appliance_id="NEST0101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0105" device_desc="AC Water - Intake capacity" appliance_id="NEST0102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0106" device_desc="AC Water - Return circuit" appliance_id="NEST0102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0107" device_desc="Timer for AC" appliance_id="NEST0102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0108" device_desc="Inverter of the motor CTA clean room" appliance_id="NEST0103" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0109" device_desc="Inverter of the motor CTA laboratories" appliance_id="NEST0104" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0110" device_desc="Set Point - Inverter of the motor CTA clean room" appliance_id="NEST0103" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0111" device_desc="Set Point - Inverter of the motor CTA laboratories" appliance_id="NEST0104" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0112" device_desc="Heat controller Lab 1" appliance_id="NEST0105" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0113" device_desc="Heat controller Lab 2" appliance_id="NEST0106" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0114" device_desc="Heat controller Lab 3" appliance_id="NEST0107" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0115" device_desc="Heat controller Lab 4" appliance_id="NEST0108" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0116" device_desc="Heat controller Lab 5" appliance_id="NEST0109" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0117" device_desc="Heat controller Lab 6" appliance_id="NEST0110" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0118" device_desc="Heat controller Lab 7" appliance_id="NEST0111" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0119" device_desc="Heat controller Lab 8" appliance_id="NEST0112" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0120" device_desc="Heat controller Lab 9" appliance_id="NEST0113" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0121" device_desc="Heat controller Lab 10" appliance_id="NEST0114" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0122" device_desc="Heat controller Lab 11" appliance_id="NEST0115" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0123" device_desc="Heat controller Lab 12" appliance_id="NEST0116" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0124" device_desc="Heat controller Lab 13" appliance_id="NEST0117" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0125" device_desc="Heat controller Lab 14" appliance_id="NEST0118" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0126" device_desc="Heat controller Lab 15" appliance_id="NEST0119" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0127" device_desc="Heat controller Lab 16" appliance_id="NEST0120" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0128" device_desc="Heat controller Lab 17" appliance_id="NEST0121" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0129" device_desc="Heat controller Lab 18" appliance_id="NEST0122" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0130" device_desc="Heat controller Lab 19" appliance_id="NEST0123" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0131" device_desc="Heat controller Lab 20" appliance_id="NEST0124" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0132" device_desc="Heat controller Lab 21" appliance_id="NEST0125" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0133" device_desc="Heat controller Lab 22" appliance_id="NEST0126" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0134" device_desc="Heat controller Lab 23" appliance_id="NEST0127" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0135" device_desc="Presence of people 1" appliance_id="AMBIENT010" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0136" device_desc="Presence of people 2" appliance_id="AMBIENT010" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0141" device_desc="TR1" appliance_id="NEST0141" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="NEST0142" device_desc="TR2" appliance_id="NEST0142" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="UPC02001" device_desc="PC room's ventilation consumption" appliance_id="AUPC020101" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="UPC02002" device_desc="PC room's consumption" appliance_id="AUPC020102" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="UPC02003" device_desc="Lecture room's ventilation consumption" appliance_id="AUPC020201" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="UPC02004" device_desc="Lecture room's consumption" appliance_id="AUPC020202" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="UPC02005" device_desc="Lecturer's office's ventilation consumption" appliance_id="AUPC020301" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="UPC02006" device_desc="Lecturer's office consumption" appliance_id="AUPC020302" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_65568" device_desc="Basic" appliance_id="zwave01625CBE_1" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_65924" device_desc="WakeUp Interval" appliance_id="zwave01625CBE_1" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_65539" device_desc="Event" appliance_id="zwave01625CBE_1" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_65584" device_desc="Binary Sensor" appliance_id="zwave01625CBE_1" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_65585" device_desc="Luminance Sensor" appliance_id="zwave01625CBE_1" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_65664" device_desc="Battery Level" appliance_id="zwave01625CBE_1" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_67174449" device_desc="Luminance Sensor" appliance_id="zwave01625CBE_1025" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_67239985" device_desc="Luminance Sensor" appliance_id="zwave01625CBE_1026" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_67305521" device_desc="Luminance Sensor" appliance_id="zwave01625CBE_1027" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_67371057" device_desc="Luminance Sensor" appliance_id="zwave01625CBE_1028" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_67436593" device_desc="Luminance Sensor" appliance_id="zwave01625CBE_1029" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_67567665" device_desc="Luminance Sensor" appliance_id="zwave01625CBE_1031" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_131460" device_desc="WakeUp Interval" appliance_id="zwave01625CBE_2" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_131075" device_desc="Event" appliance_id="zwave01625CBE_2" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_131120" device_desc="Binary Sensor" appliance_id="zwave01625CBE_2" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_131200" device_desc="Battery Level" appliance_id="zwave01625CBE_2" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_196611" device_desc="Event" appliance_id="zwave01625CBE_3" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_196656" device_desc="Binary Sensor" appliance_id="zwave01625CBE_3" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_196736" device_desc="Battery Level" appliance_id="zwave01625CBE_3" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_262532" device_desc="WakeUp Interval" appliance_id="zwave01625CBE_4" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_262147" device_desc="Event" appliance_id="zwave01625CBE_4" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_262192" device_desc="Binary Sensor" appliance_id="zwave01625CBE_4" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_262272" device_desc="Battery Level" appliance_id="zwave01625CBE_4" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_327712" device_desc="Basic" appliance_id="zwave01625CBE_5" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_328068" device_desc="WakeUp Interval" appliance_id="zwave01625CBE_5" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_327683" device_desc="Event" appliance_id="zwave01625CBE_5" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_327728" device_desc="Binary Sensor" appliance_id="zwave01625CBE_5" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_327808" device_desc="Battery Level" appliance_id="zwave01625CBE_5" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_33620017" device_desc="Temperature Sensor" appliance_id="zwave01625CBE_513" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_33685553" device_desc="Temperature Sensor" appliance_id="zwave01625CBE_514" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_33751089" device_desc="Temperature Sensor" appliance_id="zwave01625CBE_515" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_33816625" device_desc="Temperature Sensor" appliance_id="zwave01625CBE_516" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_33882161" device_desc="Temperature Sensor" appliance_id="zwave01625CBE_517" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_34013233" device_desc="Temperature Sensor" appliance_id="zwave01625CBE_519" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_393248" device_desc="Basic" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_393253" device_desc="On/Off" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_393568" device_desc="On/Off" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_393824" device_desc="On/Off" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_394080" device_desc="On/Off" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_394336" device_desc="On/Off" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_393219" device_desc="Event" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_393264" device_desc="Binary Sensor" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_393269" device_desc="Meter Pulse Sensor" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_393277" device_desc="Total Primary Active Energy" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_393533" device_desc="Instantaneous Primary Active Power" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_393789" device_desc="Voltage Phase 1" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_394045" device_desc="Voltage Phase 2" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_394301" device_desc="Voltage Phase 3" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_394557" device_desc="Ampere Phase 1" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_394813" device_desc="Ampere Phase 2" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_395069" device_desc="Ampere Phase 3" appliance_id="zwave01625CBE_6" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_458784" device_desc="Basic" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_458789" device_desc="On/Off" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_458755" device_desc="Event" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_458800" device_desc="Binary Sensor" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_458805" device_desc="Meter Pulse Sensor" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_458813" device_desc="Total Primary Active Energy" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_459069" device_desc="Instantaneous Primary Active Power" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_459104" device_desc="On/Off" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_459325" device_desc="Voltage Phase 1" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_459581" device_desc="Voltage Phase 2" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_459837" device_desc="Voltage Phase 3" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_460093" device_desc="Ampere Phase 1" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_460349" device_desc="Ampere Phase 2" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_460605" device_desc="Ampere Phase 3" appliance_id="zwave01625CBE_7" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_50397233" device_desc="Temperature Sensor" appliance_id="zwave01625CBE_769" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_50462769" device_desc="Humidity Sensor" appliance_id="zwave01625CBE_770" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_50528305" device_desc="Humidity Sensor" appliance_id="zwave01625CBE_771" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_50593841" device_desc="Humidity Sensor" appliance_id="zwave01625CBE_772" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_50659377" device_desc="Humidity Sensor" appliance_id="zwave01625CBE_773" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_50790449" device_desc="Humidity Sensor" appliance_id="zwave01625CBE_775" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_524320" device_desc="Basic" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_524325" device_desc="On/Off" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_524640" device_desc="On/Off" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_524896" device_desc="On/Off" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_525152" device_desc="On/Off" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_525408" device_desc="On/Off" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="false" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_524291" device_desc="Event" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_524336" device_desc="Binary Sensor" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_524341" device_desc="Meter Pulse Sensor" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_524349" device_desc="Total Primary Active Energy" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_524605" device_desc="Instantaneous Primary Active Power" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_524861" device_desc="Voltage Phase 1" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_525117" device_desc="Voltage Phase 2" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_525373" device_desc="Voltage Phase 3" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_525629" device_desc="Ampere Phase 1" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_525885" device_desc="Ampere Phase 2" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_526141" device_desc="Ampere Phase 3" appliance_id="zwave01625CBE_8" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_34144305" device_desc="Temperature Sensor" appliance_id="zwave01625CBE_521" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_50921521" device_desc="Humidity Sensor" appliance_id="zwave01625CBE_777" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_67698737" device_desc="Luminance Sensor" appliance_id="zwave01625CBE_1033" manufacturer_id="" device_output="true" gateway_id="" /> 
+    <ConfShadowDevice device_id="zwave01625CBE_589872" device_desc="Movement Sensor" appliance_id="zwave01625CBE_9" manufacturer_id="" device_output="true" gateway_id="" />
+</root>

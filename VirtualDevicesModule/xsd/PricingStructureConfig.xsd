@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://langdale.com.au/2005/Message#" xmlns:a="http://langdale.com.au/2005/Message#"
+xmlns:m="http://www.encourage-project.eu/PricingStructureConfig#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.encourage-project.eu/PricingStructureConfig#" elementFormDefault="qualified"
+attributeFormDefault="unqualified">
+<xs:element name="PricingStructureConfig" type="m:PricingStructureConfig"/>
+<xs:complexType name="PricingStructureConfig">
+<xs:sequence>
+<xs:element name="PricingStructure" type="m:PricingStructure" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="AccountingUnit" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+AccountingUnit">
+<xs:sequence>
+<xs:element name="energyUnit" type="m:RealEnergy" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#AccountingUnit.energyUnit"/>
+<xs:element name="monetaryUnit" type="m:Currency" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#AccountingUnit.monetaryUnit"/>
+<xs:element name="multiplier" type="m:UnitMultiplier" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#AccountingUnit.multiplier"/>
+<xs:element name="value" type="xs:float" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#AccountingUnit.value"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="Charge" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Charge">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="kind" type="m:ChargeKind" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Charge.kind"/>
+<xs:element name="variablePortion" type="m:PerCent" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Charge.variablePortion"/>
+<xs:element name="fixedPortion" type="m:AccountingUnit" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Charge.fixedPortion"/>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+</xs:sequence>
+</xs:complexType>
+<xs:simpleType name="ChargeKind" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+ChargeKind">
+<xs:restriction base="xs:string">
+<xs:enumeration value="auxiliaryCharge"/>
+<xs:enumeration value="consumptionCharge"/>
+<xs:enumeration value="demandCharge"/>
+<xs:enumeration value="other"/>
+<xs:enumeration value="taxCharge"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:complexType name="ConfigurationEvent" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+ConfigurationEvent">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="createdDateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ActivityRecord.createdDateTime"/>
+<xs:element name="effectiveDateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ConfigurationEvent.effectiveDateTime"/>
+<xs:element name="modifiedBy" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ConfigurationEvent.modifiedBy"/>
+<xs:element name="reason" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ActivityRecord.reason"/>
+<xs:element name="remark" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ConfigurationEvent.remark"/>
+<xs:element name="severity" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ActivityRecord.severity"/>
+<xs:element name="type" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ActivityRecord.type"/>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+<xs:element name="status" type="m:Status" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ActivityRecord.status"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="ConsumptionTariffInterval" sawsdl:modelReference="http://iec.ch/TC57/2010/CIMschema-
+cim15#ConsumptionTariffInterval">
+<xs:sequence>
+<xs:element name="sequenceNumber" type="xs:integer"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+ConsumptionTariffInterval.sequenceNumber"/>
+<xs:element name="startValue" type="m:RealEnergy"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ConsumptionTariffInterval.startValue"/>
+<xs:element name="Charges" type="m:Charge" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ConsumptionTariffInterval.Charges"/>
+</xs:sequence>
+</xs:complexType>
+<xs:simpleType name="Currency" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+Currency">
+<xs:restriction base="xs:string">
+<xs:enumeration value="AUD"/>
+<xs:enumeration value="CAD"/>
+<xs:enumeration value="CHF"/>
+<xs:enumeration value="CNY"/>
+<xs:enumeration value="DKK"/>
+<xs:enumeration value="EUR"/>
+<xs:enumeration value="GBP"/>
+<xs:enumeration value="INR"/>
+<xs:enumeration value="JPY"/>
+<xs:enumeration value="NOK"/>
+<xs:enumeration value="RUR"/>
+<xs:enumeration value="SEK"/>
+<xs:enumeration value="USD"/>
+<xs:enumeration value="other"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:complexType name="Name" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Name">
+<xs:sequence>
+<xs:element name="name" type="xs:string" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+Name.name"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="PricingStructure" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+PricingStructure">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="code" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PricingStructure.code"/>
+<xs:element name="createdDateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.createdDateTime"/>
+<xs:element name="dailyCeilingUsage" type="xs:integer" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PricingStructure.dailyCeilingUsage"/>
+<xs:element name="dailyEstimatedUsage" type="xs:integer" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PricingStructure.dailyEstimatedUsage"/>
+<xs:element name="dailyFloorUsage" type="xs:integer" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PricingStructure.dailyFloorUsage"/>
+<xs:element name="lastModifiedDateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.lastModifiedDateTime"/>
+<xs:element name="revenueKind" type="m:RevenueKind" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PricingStructure.revenueKind"/>
+<xs:element name="revisionNumber" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.revisionNumber"/>
+<xs:element name="subject" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.subject"/>
+<xs:element name="taxExemption" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PricingStructure.taxExemption"/>
+<xs:element name="title" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.title"/>
+<xs:element name="type" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.type"/>
+<xs:element name="ConfigurationEvents" type="m:ConfigurationEvent" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.ConfigurationEvents"/>
+<xs:element name="docStatus" type="m:Status" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.docStatus"/>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+<xs:element name="status" type="m:Status" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.status"/>
+<xs:element name="Tariffs" type="m:Tariff" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PricingStructure.Tariffs"/>
+</xs:sequence>
+</xs:complexType>
+<xs:simpleType name="RevenueKind" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+RevenueKind">
+<xs:restriction base="xs:string">
+<xs:enumeration value="commercial"/>
+<xs:enumeration value="industrial"/>
+<xs:enumeration value="irrigation"/>
+<xs:enumeration value="nonResidential"/>
+<xs:enumeration value="other"/>
+<xs:enumeration value="residential"/>
+<xs:enumeration value="streetLight"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:complexType name="Status" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Status">
+<xs:sequence>
+<xs:element name="dateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Status.dateTime"/>
+<xs:element name="reason" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Status.reason"/>
+<xs:element name="remark" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Status.remark"/>
+<xs:element name="value" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Status.value"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="Tariff" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Tariff">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="createdDateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.createdDateTime"/>
+<xs:element name="endDate" type="xs:date" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Tariff.endDate"/>
+<xs:element name="lastModifiedDateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.lastModifiedDateTime"/>
+<xs:element name="revisionNumber" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.revisionNumber"/>
+<xs:element name="startDate" type="xs:date" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Tariff.startDate"/>
+<xs:element name="subject" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.subject"/>
+<xs:element name="title" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.title"/>
+<xs:element name="type" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.type"/>
+<xs:element name="docStatus" type="m:Status" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.docStatus"/>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+<xs:element name="status" type="m:Status" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.status"/>
+<xs:element name="TariffProfiles" type="m:TariffProfile" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Tariff.TariffProfiles"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="TariffProfile" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+TariffProfile">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="createdDateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.createdDateTime"/>
+<xs:element name="lastModifiedDateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.lastModifiedDateTime"/>
+<xs:element name="revisionNumber" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.revisionNumber"/>
+<xs:element name="subject" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.subject"/>
+<xs:element name="tariffCycle" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#TariffProfile.tariffCycle"/>
+<xs:element name="title" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.title"/>
+<xs:element name="type" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.type"/>
+<xs:element name="ConsumptionTariffIntervals" type="m:ConsumptionTariffInterval" minOccurs="0"
+maxOccurs="unbounded" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+TariffProfile.ConsumptionTariffIntervals"/>
+<xs:element name="docStatus" type="m:Status" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.docStatus"/>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+<xs:element name="status" type="m:Status" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.status"/>
+<xs:element name="TimeTariffIntervals" type="m:TimeTariffInterval" minOccurs="0"
+maxOccurs="unbounded" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+TariffProfile.TimeTariffIntervals"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="TimeTariffInterval" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+TimeTariffInterval">
+<xs:sequence>
+<xs:element name="sequenceNumber" type="xs:integer" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeTariffInterval.sequenceNumber"/>
+<xs:element name="startTime" type="xs:time" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeTariffInterval.startTime"/>
+<xs:element name="Charges" type="m:Charge" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeTariffInterval.Charges"/>
+<xs:element name="ConsumptionTariffIntervals" type="m:ConsumptionTariffInterval" minOccurs="0"
+maxOccurs="unbounded" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+TimeTariffInterval.ConsumptionTariffIntervals"/>
+</xs:sequence>
+</xs:complexType>
+<xs:simpleType name="UnitMultiplier" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+UnitMultiplier">
+<xs:restriction base="xs:string">
+<xs:enumeration value="G"/>
+<xs:enumeration value="M"/>
+<xs:enumeration value="T"/>
+<xs:enumeration value="c"/>
+<xs:enumeration value="d"/>
+<xs:enumeration value="k"/>
+<xs:enumeration value="m"/>
+<xs:enumeration value="micro"/>
+<xs:enumeration value="n"/>
+<xs:enumeration value="none"/>
+<xs:enumeration value="p"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="RealEnergy" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+RealEnergy">
+<xs:restriction base="xs:float"/>
+</xs:simpleType>
+<xs:simpleType name="PerCent" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PerCent">
+<xs:restriction base="xs:float"/>
+</xs:simpleType>
+</xs:schema>

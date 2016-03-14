@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:m="http://www.encourage-project.eu/ConfMacroCell#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.encourage-project.eu/ConfMacroCell#"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="ConfMacroCell">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string">
+<xs:attribute type="xs:string" name="macrocell_desc" use="optional"/>
+<xs:attribute type="xs:string" name="macrocell_id"/>
+<xs:attribute type="xs:string" name="region" use="optional"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:schema>

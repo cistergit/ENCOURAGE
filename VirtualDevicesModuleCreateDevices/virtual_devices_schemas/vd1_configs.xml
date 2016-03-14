@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VirtualMacroCell macroCellId="1" macroCellDescription="CISTER" macroCellRegion="PORTO">
+    <VirtualCell cellId="1" cellLatitude="10" cellLongitude="10" cellSurface="" cellVolumen="" cellBuildingShadeCoefficient="" cellWallInsulationThickness="" cellDescription="Residence1">
+        <VirtualRoom>
+            <VirtualAppliance>
+                <ShadowDevice gatewayId="76" middlewarePluginId="1" roomId="" applianceId="" deviceId="1" deviceType="1" manufacturerId="" deviceDescription="sensor1">
+                </ShadowDevice>
+                <ShadowDevice gatewayId="76" middlewarePluginId="1" roomId="" applianceId="" deviceId="2" deviceType="1" manufacturerId="" deviceDescription="sensor2">
+                </ShadowDevice>
+                <ShadowDevice gatewayId="76" middlewarePluginId="1" roomId="" applianceId="" deviceId="3" deviceType="1" manufacturerId="" deviceDescription="sensor3">
+                </ShadowDevice>
+                <ShadowDevice gatewayId="76" middlewarePluginId="1" roomId="" applianceId="" deviceId="4" deviceType="2" manufacturerId="" deviceDescription="sensor4">
+                </ShadowDevice>
+            </VirtualAppliance>
+        </VirtualRoom>
+    </VirtualCell>
+    <VirtualCell cellId="2" cellLatitude="20" cellLongitude="20" cellSurface="" cellVolumen="" cellBuildingShadeCoefficient="" cellWallInsulationThickness="" cellDescription="Residence2">
+        <VirtualRoom>
+            <VirtualAppliance>
+                <ShadowDevice gatewayId="76" middlewarePluginId="2" roomId="" applianceId="" deviceId="5" deviceType="1" manufacturerId="" deviceDescription="sensor5">
+                </ShadowDevice>
+                <ShadowDevice gatewayId="76" middlewarePluginId="2" roomId="" applianceId="" deviceId="6" deviceType="1" manufacturerId="" deviceDescription="sensor6">
+                </ShadowDevice>
+                <ShadowDevice gatewayId="76" middlewarePluginId="2" roomId="" applianceId="" deviceId="7" deviceType="2" manufacturerId="" deviceDescription="sensor7">
+                </ShadowDevice>
+                <ShadowDevice gatewayId="76" middlewarePluginId="2" roomId="" applianceId="" deviceId="8" deviceType="2" manufacturerId="" deviceDescription="sensor8">
+                </ShadowDevice>
+            </VirtualAppliance>
+        </VirtualRoom>
+    </VirtualCell>
+</VirtualMacroCell>

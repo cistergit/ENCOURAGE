@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:m="http://www.encourage-project.eu/ConfCell#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.encourage-project.eu/ConfCell#"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="ConfCell">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string">
+<xs:attribute type="xs:string" name="cell_building_shade_coefficient" use="optional"/>
+<xs:attribute type="xs:string" name="cell_desc" use="optional"/>
+<xs:attribute type="xs:string" name="cell_id"/>
+<xs:attribute type="xs:string" name="cell_latitud" use="optional"/>
+<xs:attribute type="xs:string" name="cell_longitud" use="optional"/>
+<xs:attribute type="xs:string" name="cell_surface" use="optional"/>
+<xs:attribute type="xs:string" name="cell_volumen" use="optional"/>
+<xs:attribute type="xs:string" name="cell_wall_insulation_thickness" use="optional"/>
+<xs:attribute type="xs:string" name="macrocell_id" use="optional"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:schema>

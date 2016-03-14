@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:m="http://www.encourage-project.eu/ConfAppliance#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.encourage-project.eu/ConfAppliance#"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="ConfAppliance">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:string">
+<xs:attribute type="xs:string" name="appliance_activacion_date" use="optional"/>
+<xs:attribute type="xs:string" name="appliance_desc" use="optional"/>
+<xs:attribute type="xs:string" name="appliance_id"/>
+<xs:attribute type="xs:string" name="appliance_investment" use="optional"/>
+<xs:attribute type="xs:string" name="appliance_leaving_date" use="optional"/>
+<xs:attribute type="xs:string" name="appliance_power" use="optional"/>
+<xs:attribute type="xs:string" name="load_type_id" use="optional"/>
+<xs:attribute type="xs:string" name="room_id" use="optional"/>
+<xs:attribute type="xs:string" name="subcategory_id" use="optional"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:schema>

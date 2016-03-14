@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://langdale.com.au/2005/Message#" xmlns:a="http://langdale.com.au/2005/Message#"
+xmlns:m="http://www.encourage-project.eu/MarketParticipant#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.encourage-project.eu/MarketParticipant#"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="MarketParticipant" type="m:MarketParticipant"/>
+<xs:complexType name="MarketParticipant">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+<xs:element name="MarketRole" type="m:MarketRole" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="streetAddress" type="m:StreetAddress" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="StreetAddress">
+<xs:sequence>
+<xs:element name="streetDetail" type="m:StreetDetail" minOccurs="0"/>
+<xs:element name="townDetail" type="m:TownDetail" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+<xs:simpleType name="MarketRoleKind">
+<xs:restriction base="xs:string">
+<xs:enumeration value="energyServiceConsumer"/>
+<xs:enumeration value="generatorOwner"/>
+<xs:enumeration value="generatorOperator"/>
+<xs:enumeration value="transmissionServiceProvider"/>
+<xs:enumeration value="transmissionOwner"/>
+<xs:enumeration value="transmissionOperator"/>
+<xs:enumeration value="distributionProvider"/>
+<xs:enumeration value="loadServingEntity"/>
+<xs:enumeration value="purchasingSellingEntity"/>
+<xs:enumeration value="competitiveRetailer"/>
+<xs:enumeration value="reliabilityAuthority"/>
+<xs:enumeration value="planningAuthority"/>
+<xs:enumeration value="balancingAuthority"/>
+<xs:enumeration value="interchangeAuthority"/>
+<xs:enumeration value="transmissionPlanner"/>
+<xs:enumeration value="resourcePlanner"/>
+<xs:enumeration value="standardsDeveloper"/>
+<xs:enumeration value="complianceMonitor"/>
+<xs:enumeration value="BalanceResponsibleParty"/>
+<xs:enumeration value="BalanceSupplier"/>
+<xs:enumeration value="BillingAgent"/>
+<xs:enumeration value="BlockEnergyTrader"/>
+<xs:enumeration value="CapacityCoordinator"/>
+<xs:enumeration value="CapacityTrader"/>
+<xs:enumeration value="Consumer"/>
+<xs:enumeration value="ConsumptionResponsibleParty"/>
+<xs:enumeration value="ControlAreaOperator"/>
+<xs:enumeration value="ControlBlockOperator"/>
+<xs:enumeration value="CoordinationCenterOperator"/>
+<xs:enumeration value="GridAccessProvider"/>
+<xs:enumeration value="GridOperator"/>
+<xs:enumeration value="ImbalanceSettlementResponsible"/>
+<xs:enumeration value="InterconnectionTradeResponsible"/>
+<xs:enumeration value="MarketInformationAggregator"/>
+<xs:enumeration value="MarketOperator"/>
+<xs:enumeration value="MeterAdministrator"/>
+<xs:enumeration value="MeterOperator"/>
+<xs:enumeration value="MeteredDataCollector"/>
+<xs:enumeration value="MeteredDataResponsible"/>
+<xs:enumeration value="MeteredDataAggregator"/>
+<xs:enumeration value="MeteringPointAdministrator"/>
+<xs:enumeration value="MOLResponsible"/>
+<xs:enumeration value="NominationValidator"/>
+<xs:enumeration value="PartyConnectedToTheGrid"/>
+<xs:enumeration value="Producer"/>
+<xs:enumeration value="ProductionResponsibleParty"/>
+<xs:enumeration value="ReconciliationAccountable"/>
+<xs:enumeration value="ReconciliationResponsible"/>
+<xs:enumeration value="ReserveAllocator"/>
+<xs:enumeration value="ResourceProvider"/>
+<xs:enumeration value="SchedulingCoordinator"/>
+<xs:enumeration value="SystemOperator"/>
+<xs:enumeration value="TradeResponsibleParty"/>
+<xs:enumeration value="TransmissionCapacityAllocator"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:complexType name="MarketRole" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#MarketRole">
+<xs:sequence>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+<xs:element name="mRID" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="type" type="xs:string" minOccurs="0"/>
+<xs:element name="roleType" type="m:MarketRoleKind" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="Name" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Name">
+<xs:sequence>
+<xs:element name="name" type="xs:string" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#Name.name"/>
+<xs:element name="NameType" type="m:NameType" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Name.NameType"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="NameType" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#NameType">
+<xs:sequence>
+<xs:element name="description" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#NameType.description"/>
+<xs:element name="name" type="xs:string" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#NameType.name"/>
+<xs:element name="NameTypeAuthority" type="m:NameTypeAuthority" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="NameTypeAuthority" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#NameTypeAuthority">
+<xs:sequence>
+<xs:element name="description" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#NameTypeAuthority.description"/>
+<xs:element name="name" type="xs:string" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#NameTypeAuthority.name"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="StreetDetail">
+<xs:sequence>
+<xs:element name="addressGeneral" type="xs:string" minOccurs="0"/>
+<xs:element name="buildingName" type="xs:string" minOccurs="0"/>
+<xs:element name="code" type="xs:string" minOccurs="0"/>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+<xs:element name="number" type="xs:string" minOccurs="0"/>
+<xs:element name="prefix" type="xs:string" minOccurs="0"/>
+<xs:element name="suffix" type="xs:string" minOccurs="0"/>
+<xs:element name="suiteNumber" type="xs:string" minOccurs="0"/>
+<xs:element name="type" type="xs:string" minOccurs="0"/>
+<xs:element name="withinTownLimits" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="TownDetail" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM‐schemacim15#
+TownDetail">
+<xs:sequence>
+<xs:element name="code" type="xs:string" minOccurs="0"/>
+<xs:element name="country" type="xs:string" minOccurs="0"/>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+<xs:element name="section" type="xs:string" minOccurs="0"/>
+<xs:element name="stateOrProvince" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

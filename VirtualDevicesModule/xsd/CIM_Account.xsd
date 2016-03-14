@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:m="http://www.encourage-project.eu/CIM_Account#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.encourage-project.eu/CIM_Account#"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="Name" type="xs:string"/>
+<xs:element name="UserID" nillable="true" type="xs:string"/>
+<xs:element name="UserPassword" nillable="true" type="xs:string"/>
+<xs:element name="InstanceID" nillable="true" type="xs:string"/>
+<xs:element name="Description" nillable="true" type="xs:string"/>
+<xs:element name="CIM_Account" type="m:CIM_Account_Type"/>
+<xs:complexType name="CIM_Account_Type">
+<xs:sequence>
+<xs:element minOccurs="0" ref="m:Description"/>
+<xs:element minOccurs="0" ref="m:InstanceID"/>
+<xs:element ref="m:Name"/>
+<xs:element minOccurs="0" ref="m:UserID"/>
+<xs:element minOccurs="0" ref="m:UserPassword"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

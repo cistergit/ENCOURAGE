@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://langdale.com.au/2005/Message#" xmlns:a="http://langdale.com.au/2005/Message#"
+xmlns:m="http://www.encourage-project.eu/EndDeviceControls#" xmlns:sawsdl="http://www.w3.org/ns/sawsdl"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.encourage-project.eu/EndDeviceControls#"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="EndDeviceControls" type="m:EndDeviceControls"/>
+<xs:complexType name="EndDeviceControls">
+<xs:sequence>
+<xs:element name="EndDeviceControl" type="m:EndDeviceControl" minOccurs="0"
+maxOccurs="unbounded"/>
+<xs:element name="EndDeviceControlType" type="m:EndDeviceControlType" minOccurs="0"
+maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="ControlledAppliance" sawsdl:modelReference="http://iec.ch/TC57/2010/CIMschema-
+cim15#ControlledAppliance">
+<xs:sequence>
+<xs:element name="isElectricVehicle" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ControlledAppliance.isElectricVehicle"/>
+<xs:element name="isExteriorLighting" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ControlledAppliance.isExteriorLighting"/>
+<xs:element name="isGenerationSystem" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ControlledAppliance.isGenerationSystem"/>
+<xs:element name="isHvacCompressorOrFurnace" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+ControlledAppliance.isHvacCompressorOrFurnace"/>
+<xs:element name="isInteriorLighting" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ControlledAppliance.isInteriorLighting"/>
+<xs:element name="isIrrigationPump" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ControlledAppliance.isIrrigationPump"/>
+<xs:element name="isManagedCommercialIndustrialLoad" type="xs:boolean"
+minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+ControlledAppliance.isManagedCommercialIndustrialLoad"/>
+<xs:element name="isPoolPumpSpaJacuzzi" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ControlledAppliance.isPoolPumpSpaJacuzzi"/>
+<xs:element name="isSimpleMiscLoad" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ControlledAppliance.isSimpleMiscLoad"/>
+<xs:element name="isSmartAppliance" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ControlledAppliance.isSmartAppliance"/>
+<xs:element name="isStripAndBaseboardHeater" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+ControlledAppliance.isStripAndBaseboardHeater"/>
+<xs:element name="isWaterHeater" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#ControlledAppliance.isWaterHeater"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="Customer" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+Customer">
+<xs:sequence/>
+</xs:complexType>
+<xs:complexType name="DateTimeInterval" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#DateTimeInterval">
+<xs:sequence>
+<xs:element name="end" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#DateTimeInterval.end"/>
+<xs:element name="start" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#DateTimeInterval.start"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="EndDevice" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#EndDevice">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="installCode" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDevice.installCode"/>
+<xs:element name="isPan" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDevice.isPan"/>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="EndDeviceAction" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#EndDeviceAction">
+<xs:sequence>
+<xs:element name="command" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.command"/>
+<xs:element name="duration" type="m:Minutes" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.duration"/>
+<xs:element name="durationIndefinite" type="xs:boolean" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.durationIndefinite"/>
+<xs:element name="startDateTime" type="xs:dateTime" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.startDateTime"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="EndDeviceControl" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#EndDeviceControl">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="drProgramLevel" type="xs:integer" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControl.drProgramLevel"/>
+<xs:element name="drProgramMandatory" type="xs:boolean" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControl.drProgramMandatory"/>
+<xs:element name="issuerID" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControl.issuerID"/>
+<xs:element name="issuerTrackingID" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControl.issuerTrackingID"/>
+<xs:element name="priceSignal" type="m:FloatQuantity" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControl.priceSignal"/>
+<xs:element name="reason" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControl.reason"/>
+<xs:choice minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#EndDeviceControl.EndDeviceAction">
+<xs:element name="PanDemandResponse" type="m:PanDemandResponse" sawsdl:modelReference=""/>
+<xs:element name="PanDisplay" type="m:PanDisplay" sawsdl:modelReference=""/>
+<xs:element name="PanPricing" type="m:PanPricing" sawsdl:modelReference=""/>
+</xs:choice>
+<xs:element name="EndDeviceControlType" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControl.EndDeviceControlType">
+<xs:complexType sawsdl:modelReference="">
+<xs:attribute name="ref" type="xs:string"/>
+</xs:complexType>
+</xs:element>
+<xs:element name="EndDevices" type="m:EndDevice" minOccurs="0" maxOccurs="unbounded" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#EndDeviceControl.EndDevices"/>
+<xs:element name="primaryDeviceTiming" type="m:EndDeviceTiming" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControl.primaryDeviceTiming"/>
+<xs:element name="secondaryDeviceTiming" type="m:EndDeviceTiming" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControl.secondaryDeviceTiming"/>
+<xs:element name="UsagePoints" type="m:UsagePoint" minOccurs="0" maxOccurs="unbounded" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#EndDeviceControl.UsagePoints"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="EndDeviceControlType" sawsdl:modelReference="http://iec.ch/TC57/2010/CIMschema-cim15#EndDeviceControlType">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="domain" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControlType.domain"/>
+<xs:element name="eventOrAction" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControlType.eventOrAction"/>
+<xs:element name="subDomain" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControlType.subDomain"/>
+<xs:element name="type" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceControlType.type"/>
+<xs:element name="Names" type="m:Name" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="EndDeviceInfo" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#EndDeviceInfo">
+<xs:sequence/>
+</xs:complexType>
+<xs:complexType name="EndDeviceTiming" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#
+EndDeviceTiming">
+<xs:sequence>
+<xs:element name="duration" type="m:Minutes" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceTiming.duration"/>
+<xs:element name="durationIndefinite" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceTiming.durationIndefinite"/>
+<xs:element name="randomisation" type="m:RandomisationKind" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceTiming.randomisation"/>
+<xs:element name="interval" type="m:DateTimeInterval" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceTiming.interval"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="Name" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Name">
+<xs:sequence>
+<xs:element name="name" type="xs:string"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Name.name"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="PanDemandResponse" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#PanDemandResponse">
+<xs:sequence>
+<xs:element name="avgLoadAdjustment" type="m:PerCent" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.avgLoadAdjustment"/>
+<xs:element name="cancelControlMode" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.cancelControlMode"/>
+<xs:element name="cancelDateTime" type="xs:dateTime" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.cancelDateTime"/>
+<xs:element name="cancelNow" type="xs:boolean" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.cancelNow"/>
+<xs:element name="command" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.command"/>
+<xs:element name="coolingOffset" type="m:Temperature" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.coolingOffset"/>
+<xs:element name="coolingSetpoint" type="m:Temperature" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.coolingSetpoint"/>
+<xs:element name="criticalityLevel" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.criticalityLevel"/>
+<xs:element name="duration" type="m:Minutes" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.duration"/>
+<xs:element name="durationIndefinite" type="xs:boolean" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.durationIndefinite"/>
+<xs:element name="dutyCycle" type="m:PerCent" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.dutyCycle"/>
+<xs:element name="enrollmentGroup" type="xs:string" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.enrollmentGroup"/>
+<xs:element name="heatingOffset" type="m:Temperature" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.heatingOffset"/>
+<xs:element name="heatingSetpoint" type="m:Temperature" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.heatingSetpoint"/>
+<xs:element name="startDateTime" type="xs:dateTime" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.startDateTime"/>
+<xs:element name="appliance" type="m:ControlledAppliance" minOccurs="0" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDemandResponse.appliance"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="PanDisplay" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#PanDisplay">
+<xs:sequence>
+<xs:element name="command" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.command"/>
+<xs:element name="confirmationRequired" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDisplay.confirmationRequired"/>
+<xs:element name="duration" type="m:Minutes" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.duration"/>
+<xs:element name="durationIndefinite" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.durationIndefinite"/>
+<xs:element name="priority" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDisplay.priority"/>
+<xs:element name="startDateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.startDateTime"/>
+<xs:element name="textMessage" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDisplay.textMessage"/>
+<xs:element name="transmissionMode" type="m:TransmissionModeKind" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanDisplay.transmissionMode"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="PanPricing" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#PanPricing">
+<xs:sequence>
+<xs:element name="command" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.command"/>
+<xs:element name="duration" type="m:Minutes" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.duration"/>
+<xs:element name="durationIndefinite" type="xs:boolean" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.durationIndefinite"/>
+<xs:element name="providerID" type="xs:integer" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricing.providerID"/>
+<xs:element name="startDateTime" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#EndDeviceAction.startDateTime"/>
+<xs:element name="PanPricingDetails" type="m:PanPricingDetail" minOccurs="0"
+maxOccurs="unbounded" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#PanPricing.PanPricingDetails"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="PanPricingDetail" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#PanPricingDetail">
+<xs:sequence>
+<xs:element name="alternateCostDelivered" type="xs:float" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.alternateCostDelivered"/>
+<xs:element name="alternateCostUnit" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.alternateCostUnit"/>
+<xs:element name="currentTimeDate" type="xs:dateTime" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.currentTimeDate"/>
+<xs:element name="generationPrice" type="m:Money" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.generationPrice"/>
+<xs:element name="generationPriceRatio" type="xs:float" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.generationPriceRatio"/>
+<xs:element name="price" type="m:Money" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.price"/>
+<xs:element name="priceRatio" type="xs:float" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.priceRatio"/>
+<xs:element name="priceTier" type="xs:integer" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.priceTier"/>
+<xs:element name="priceTierCount" type="xs:integer" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.priceTierCount"/>
+<xs:element name="priceTierLabel" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.priceTierLabel"/>
+<xs:element name="rateLabel" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.rateLabel"/>
+<xs:element name="registerTier" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.registerTier"/>
+<xs:element name="unitOfMeasure" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#PanPricingDetail.unitOfMeasure"/>
+</xs:sequence>
+</xs:complexType>
+<xs:simpleType name="RandomisationKind" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#RandomisationKind">
+<xs:restriction base="xs:string">
+<xs:enumeration value="default"/>
+<xs:enumeration value="end"/>
+<xs:enumeration value="none"/>
+<xs:enumeration value="start"/>
+<xs:enumeration value="startAndEnd"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="TransmissionModeKind" sawsdl:modelReference="http://iec.ch/TC57/2010/CIMschema-cim15#TransmissionModeKind">
+<xs:restriction base="xs:string">
+<xs:enumeration value="anonymous"/>
+<xs:enumeration value="both"/>
+<xs:enumeration value="normal"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:complexType name="UsagePoint" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#UsagePoint">
+<xs:sequence>
+<xs:element name="mRID" type="xs:string" minOccurs="0"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+<xs:element name="Names" type="m:Name" minOccurs="0" maxOccurs="unbounded"
+sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.Names"/>
+</xs:sequence>
+</xs:complexType>
+<xs:simpleType name="Minutes" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#Minutes">
+<xs:restriction base="xs:float"/>
+</xs:simpleType>
+<xs:simpleType name="FloatQuantity" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#FloatQuantity">
+<xs:restriction base="xs:float"/>
+</xs:simpleType>
+<xs:simpleType name="PerCent" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#PerCent">
+<xs:restriction base="xs:float"/>
+</xs:simpleType>
+<xs:simpleType name="Money" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schema-cim15#Money">
+<xs:restriction base="xs:decimal"/>
+</xs:simpleType>
+<xs:simpleType name="Temperature" sawsdl:modelReference="http://iec.ch/TC57/2010/CIM-schemacim15#Temperature">
+<xs:restriction base="xs:float"/>
+</xs:simpleType>
+</xs:schema>
